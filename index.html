@@ -3,6 +3,7 @@
         <title>FlowerStation</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="index.css">
+        <script src="home.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -16,6 +17,9 @@
             <div id="brand">
                 <h1>FlowerStation</h1>
                 <p>Send Flower Anywhere</p>
+            </div>
+            <div id="search">
+                <input type="text" placeholder="SEARCH HERE..."/>
             </div>
             <div id="left">
                 <div id="Icon">
@@ -38,6 +42,40 @@
                 </div>
             </div>
         </div>
+        <div id="coupon">
+            <button onClick="closeCoupon()" class="btn btn-sm" style="margin-left:95.5%;">&#9587;</button>
+            <h2 id="couponHeading">NEED SOMETHING UNIQUE?</h2>
+            <p>End your Search here!</p>
+            <div id="offer">
+                <div id="offerImg">
+                    <img src="https://i.ibb.co/QpPwqLG/p-a-scrumptious-affair-186183-m.webp" alt="rose" border="0" id="ImgStyle">
+                </div>
+                <div id="offerDetail">
+                    <h4><b>A Scrumptious Affair</b></h4>
+                    <p>
+                        <span class="fa fa-star" style="color:darkgreen"></span>
+                        <span class="fa fa-star" style="color:darkgreen"></span>
+                        <span class="fa fa-star" style="color:darkgreen"></span>
+                        <span class="fa fa-star" style="color:darkgreen"></span>
+                        <span class="fa fa-star" style="color:darkgreen"></span>&nbsp;&nbsp;245 rating&nbsp;
+                    </p>
+                    <h4>Actual Price - ₹5845</h4>
+                    <h5 style="border:3px dotted red; width:63%; margin:-1px; padding:1px; font-weight:bold;">USE CODE: EXIT15</h5>
+                    <h5>Get Upto 15% OFF</H5>
+                    <h5>Description</h5>
+                    <ul>
+                        <li>Plain Pistachio</li>
+                        <li>Flavored Cashew</li>
+                        <li>Fiery Smooth Chocolate</li>
+                        <li>Flowers</li>
+                        <li>Plant</li>
+                        <li>Coffee Mug</li>
+                    </ul>
+                </div>
+                <button class="btn btn-lg btn-success" id="offerButton">BUY NOW</button>
+            </div>
+        </div>
+        
         <div class="container-fluid" style="width:100%;">  
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -188,8 +226,7 @@
                         <h3>Rs.999/-</h3>
                         <button class="btn btn-info">Buy Now</button>
                     </div>
-                </div>
-                
+                </div>    
             </div>
         </div>
         <div id="QuickSearch">
@@ -369,7 +406,7 @@
             <div class="owl-carousel owl-theme">
                 <div class="card desc">
                     <img class="card-img-top" src="https://i.ibb.co/BwB2rCk/p-basket-of-50-red-roses-61671-m.jpg" alt="p-basket-of-50-red-roses-61671-m"  id="cardImg" border="0">
-                    <div class="card-body">
+                    <div class="card-body" style="margin-left:10px;">
                     <h5 class="card-title"><i class="fa fa-user" style="font-size:16px;"></i>Shweta Sharma</h5>
                     <p class="card-text">
                         <span class="fa fa-star" style="color:lightgreen"></span>
@@ -383,7 +420,7 @@
                 </div>
                 <div class="card desc">
                     <img class="card-img-top" src="https://i.ibb.co/2yCp3C3/chocolates-n-mixed-flowers-pink-round-box.jpg" alt="chocolates-n-mixed-flowers-pink-round-box" border="0" id="cardImg">
-                    <div class="card-body">
+                    <div class="card-body" style="margin-left:10px;">
                     <h5 class="card-title"><i class="fa fa-user" style="font-size:16px;"></i>Smirti Verma</h5>
                     <p class="card-text">
                         <span class="fa fa-star" style="color:darkgreen"></span>
@@ -399,7 +436,7 @@
                 
                 <div class="card desc">
                     <img class="card-img-top" src="https://i.ibb.co/GxCHXB6/10-pink-roses-delhi333.jpg" alt="10-pink-roses-delhi333" id="cardImg" border="0">
-                    <div class="card-body">
+                    <div class="card-body" style="margin-left:10px;">
                     <h5 class="card-title"><i class="fa fa-user" style="font-size:16px;"></i>Sidharth Maheswari</h5>
                     <p class="card-text">
                         <span class="fa fa-star" style="color:darkgreen"></span>
@@ -414,7 +451,7 @@
                 </div>
                 <div class="card desc">
                     <img class="card-img-top" src="https://i.ibb.co/NrBQS1w/birthday-special-syngonium-plant.webp" alt="birthday-special-syngonium-plant"  id="cardImg" border="0">
-                    <div class="card-body">
+                    <div class="card-body" style="margin-left:10px;">
                     <h5 class="card-title"><i class="fa fa-user" style="font-size:16px;"></i>Rupal Jain</h5>
                     <p class="card-text">
                         <span class="fa fa-star" style="color:orangered"></span>
@@ -428,7 +465,7 @@
                 
                 <div class="card desc">
                     <img class="card-img-top" src="https://i.ibb.co/m0DWJ7V/Rejoice-Combo.jpg" alt="Rejoice-Combo" id="cardImg" border="0">
-                    <div class="card-body">
+                    <div class="card-body" style="margin-left:10px;">
                     <h5 class="card-title"><i class="fa fa-user" style="font-size:16px;"></i>Surersh Kapoor</h5>
                     <p class="card-text">
                         <span class="fa fa-star" style="color:red"></span>
@@ -441,7 +478,7 @@
                
                 <div class="card desc">
                     <img class="card-img-top" src="https://i.ibb.co/smf9rmp/tweetycake.jpg" alt="tweetycake" border="0" id="cardImg">
-                    <div class="card-body">
+                    <div class="card-body" style="margin-left:10px;">
                     <h5 class="card-title"><i class="fa fa-user" style="font-size:16px;"></i>Deepika Gupta</h5>
                     <p class="card-text">
                         <span class="fa fa-star" style="color:darkgreen"></span>
@@ -456,7 +493,7 @@
                 </div>
                 <div class="card desc">
                     <img class="card-img-top" src="https://i.ibb.co/XCZ5TX6/rocher-rectangular-box.jpg" alt="rocher-rectangular-box" border="0" id="cardImg">
-                    <div class="card-body">
+                    <div class="card-body" style="margin-left:10px;">
                     <h5 class="card-title"><i class="fa fa-user" style="font-size:16px;"></i>Manpreet Grover</h5>
                     <p class="card-text">
                         <span class="fa fa-star" style="color:darkgreen"></span>
@@ -471,7 +508,7 @@
                 </div> 
                 <div class="card desc">
                     <img class="card-img-top" id="cardImg" src="https://i.ibb.co/XbPYRQc/chocolate.webp" alt="chocolate" border="0" >
-                    <div class="card-body">
+                    <div class="card-body" style="margin-left:10px;">
                     <h5 class="card-title"><i class="fa fa-user" style="font-size:16px;"></i>Vibhor Pandit</h5>
                     <p class="card-text">
                         <span class="fa fa-star" style="color:lightgreen"></span>
@@ -510,7 +547,7 @@
             </div>
             <div id="option">
                 <h3>Social Media</h3>
-                <a href="https://www.facebook.com/" target="_blank"><img src="https://i.ibb.co/pRGypj7/facebook-icon.png" alt="facebook-icon" border="0" style="margin-top:5%;"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="https://i.ibb.co/pRGypj7/facebook-icon.png" alt="facebook-icon" border="0" style="margin-top:5%; float:left;"></a>
                 <a href="https://www.instagram.com/" target="_blank"><img src="https://i.ibb.co/mqvCC1j/instagram-logo.png" alt="instagram-logo" border="0" style="margin-top:5%;"></a>
                 <a href="https://www.linkedin.com/" target="_blank"><img src="https://i.ibb.co/KwWssrV/download.png" alt="download" border="0" style="margin-top:5%;"></a>
                 <a href="https://twitter.com/" target="_blank"><img src="https://i.ibb.co/SnkHnkC/Twitter-logo.png" alt="Twitter-logo" border="0" style="margin-top:5%;"></a>
@@ -568,6 +605,9 @@
                     }
                 }
             })
+        </script>
+        <script>
+            window.onload = loadCoupon()
         </script>
     </body>
 </html>
