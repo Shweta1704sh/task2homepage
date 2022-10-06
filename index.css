@@ -50,7 +50,7 @@
 }
 #Icon
 {
-    width:30%;
+    width:32%;
     display:inline-block;
     
 }
@@ -231,10 +231,15 @@
 #option
 {
     height:150px;
-    width:24.5%;
+    width:32%;
     float:left;
-    margin-left:0.5%;
-    padding-left:0.1%; 
+    margin-left:1%;
+    text-align:center;
+}
+#follow
+{
+    height:150px;
+    width:100%;
     text-align:center;
 }
 .footer
