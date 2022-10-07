@@ -44,15 +44,14 @@
 {
     margin-top:-3%;
     height:80px;
-    width:20%;
-    margin-left:80%;
+    width:25%;
+    margin-left:75%;
      
 }
 #Icon
 {
     width:32%;
-    display:inline-block;
-    
+    display:inline-block;    
 }
 #Icon > a
 {
@@ -61,15 +60,13 @@
 #coupon
 {
     height:550px;
-    width:55%;
+    width:60%;
     background-color:#C0C0C0;
     z-index:100;
-    margin-left:25%;
+    margin-left:20%;
     border: 3px dashed black;
-    visibility: hidden;
     position:fixed;
-    border-radius:10px;
-      
+    border-radius:10px;  
 }
 #couponHeading
 {
@@ -86,15 +83,15 @@
 }
 #offer
 {
-    height:380px;
-    width:80%;
+    height:400px;
+    width:85%;
 }
 #offerImg
 {
     width:50%;
-    height:300px;
+    height:330px;
     float:left;
-    margin-top:10px;
+    margin-top:5px;
 }
 #ImgStyle
 {
@@ -104,14 +101,14 @@
 #offerDetail
 {
     width:50%;
-    height:320px;
+    height:350px;
     margin-left:50%;
-    padding-left:2%;
+    padding-left:5%;
 }
 #offerButton
 {
-    margin-top:20px;
-    margin-left:40%;
+    margin-top:10px;
+    margin-left:45%;
 }
 #tile
 {
