@@ -59,7 +59,7 @@
 }
 #coupon
 {
-    height:530px;
+    height:500px;
     width:60%;
     background-color:#C0C0C0;
     z-index:100;
@@ -80,12 +80,13 @@
 {
     text-align:center;
     color:white;
-    font-size:30px;
+    font-size:25px;
     font-weight: bold;
+    line-height:0.5;
 }
 #offer
 {
-    height:400px;
+    height:350px;
     width:85%;
 }
 #offerImg
@@ -109,7 +110,7 @@
 }
 #offerButton
 {
-    margin-top:5px;
+    margin-top:-10px;
     margin-left:45%;
 }
 #tile
