@@ -148,7 +148,7 @@
 #tile
 {
     width:100%;
-    height:500px;    
+    height:500px; 
 }
 #promote
 {
@@ -161,9 +161,8 @@
 #item
 {
     margin-top:20px;
-    height:330px;
+    height:350px;
     width:280px;
-    
 }
 #DivImg>img
 {
