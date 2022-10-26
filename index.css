@@ -189,6 +189,11 @@
     height:80%;
     width:100%;
 }
+#cloud
+{
+    width:20%;
+    height:40%;
+}
 .weather
 {
     text-align:center;
