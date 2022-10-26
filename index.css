@@ -167,8 +167,39 @@
 #DivImg>img
 {
     width:100%;
-    height:200px;
+    height:180px;
     border-radius: 10%;
+}
+#partition
+{
+    width:100%;
+    height:280px;
+    border-top: 4px dotted red;
+    border-bottom: 4px dotted red;
+}
+.covid
+{
+    width:50%;
+    margin-left:5%;
+    margin-top:30px;
+    float:left;
+}
+#CovidStrip
+{
+    height:80%;
+    width:100%;
+}
+.weather
+{
+    text-align:center;
+    margin-left:60%;
+    margin-top:30px;
+    width:35%;
+    height:80%;
+}
+#weatherOut
+{
+    color:crimson
 }
 #QuickSearch
 {
