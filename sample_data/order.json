@@ -9,7 +9,7 @@
         "product_id":"cake_02",
         "Quantity":1,
         "product_price":"Rs. 824/-",
-        "user_id" : 2,
+        "user_id" : 2
     },
     {
         "order_id":"o2",
@@ -21,7 +21,7 @@
         "product_id":"f01",
         "Quantity":2,
         "product_price":"Rs. 499/-",
-        "user_id" : 4,
+        "user_id" : 4
     },
     {
         "order_id":"o3",
@@ -33,7 +33,7 @@
         "product_id":"plant_04",
         "Quantity":4,
         "product_price":"Rs. 449/-", 
-        "user_id" : 5,
+        "user_id" : 5
     },
     {
         "order_id":"o4",
@@ -45,7 +45,7 @@
         "product_id":"chocolate_03",
         "Quantity":1,
         "product_price":"Rs. 1749/-", 
-        "user_id" : 1,
+        "user_id" : 1
     },
     {
         "order_id":"o5",
@@ -57,6 +57,6 @@
         "product_id":"fruit_05",
         "Quantity":5,
         "product_price":"Rs. 4300/-", 
-        "user_id" : 3,
-    },
+        "user_id" : 3
+    }
 ]
