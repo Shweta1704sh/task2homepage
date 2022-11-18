@@ -1,0 +1,113 @@
+*
+{
+    margin:auto;
+    padding:auto;
+}
+header
+{
+    background-color:#f8d8d9;
+    height:80px;
+    width:100%;
+}
+#social
+{
+    float:right;
+    margin-top:1%;
+    padding-right:2%;
+}
+#brand
+{
+    float:left;
+    padding-left:10px;
+    padding-top:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#9d4159;
+    font-weight:bold;
+    
+}
+.socialLogo
+{
+    height:50px;
+}
+a
+{
+    text-decoration:none;
+}
+#brand > h1
+{
+    color:#ad69b0;
+    margin-left:1%;
+    margin-top:1%;
+}
+#container
+{
+    height:500px;
+    width:80%;
+    margin-left:10%;
+    margin-top:5%;
+}
+#containerImg
+{
+    width:30%;
+    height:400px;
+    float:left;
+    margin-top:4%;
+    margin-left:4%;
+}
+#containerImg > img
+{
+    width:100%;
+    height:100%;
+}
+#containerDiv
+{
+    width:50%;
+    height:400px;
+    margin-top:4%;
+    margin-left:40%;
+    padding-top:2%;
+    padding-left:2%;
+    line-height:2;
+}
+
+footer
+{
+    height:200px;
+    width:100%;
+    text-align:center;
+    background-color:#cc7c58;
+}
+#footer
+{
+    font-weight:bold;
+    font-size:20px;
+}
+#footDiv
+{
+    
+    float:left;
+    height:100px;
+    width:33%;
+    margin-top:-1%;
+}
+footer
+{
+    height:150px;
+    width:100%;
+    text-align:center;
+    background-color:#cc7c58;
+}
+#footer
+{
+    font-weight:bold;
+    padding:1%;
+    font-size:20px;
+}
+#footDiv
+{
+    Margin-top:1%;
+    float:left;
+    height:100px;
+    width:33%;
+    margin-top:1%;
+}   
