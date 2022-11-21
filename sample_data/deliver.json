@@ -1,0 +1,66 @@
+[
+    {
+        "_id":"d01",
+        "date_of_delivery":"22/10/2022",
+        "time_of_delivery":"11:00AM",
+        "product":{
+            "product_name":"Special White Forest Cake",
+            "product_image": "https://i.ibb.co/0nkQfXw/pw-white-forest-cake.jpg",
+            "product_detail":"Tempting Delicious half kg white forest cake half kg.Ideal gift for birthday and anniversary."
+        },
+        "product_price":"Rs. 824/-",
+        "user":{
+            "user_name" : "Shweta Sharma",
+            "phone_no" : "9910961025"
+        },
+        "delivery_status":"Delivered"
+    },
+    {
+        "_id":"d02",
+        "date_of_delivery":"22/10/2022",
+        "time_of_delivery":"12:00AM",
+        "product":{
+            "product_name":"Money Plant Red & Black Texture Ceramic Pot",
+            "product_image": "https://i.ibb.co/Thqs4HZ/money-plant-red-black-texture-ceramic-pot.webp",
+            "product_detail":"An Indoor/Outdoor money plant upto height 5inch with Red & Black Texture Tropical Ceramic Pot."
+        },
+        "product_price":"Rs. 1846/-",
+        "user":{
+            "user_name" : "Suresh Kapoor",
+            "phone_no" : "9910991096"
+        },
+        "delivery_status":"In Transit"
+    },
+    {
+        "_id":"d03",
+        "date_of_delivery":"21/10/2022",
+        "time_of_delivery":"09:00AM",
+        "product":{
+            "product_name":"Premium Harvest",
+            "product_image": "https://i.ibb.co/8r8s0t8/frt009-new.jpg",
+            "product_detail":"Luxury fruit basket with larger selection of Fresh and Exotic Fruits depending on the season ,decorated with ribbon."
+        },
+        "product_price":"Rs. 21550/-",
+        "user":{
+            "user_name" : "Sidharth Verma",
+            "phone_no" : "9988776655"
+        },
+        "delivery_status":"Shipped"
+    },
+    {
+        "_id":"d04",
+        "date_of_delivery":"17/10/2022",
+        "time_of_delivery":"11:59PM",
+        "product":{
+            "product_name":"Rocher Choco Bouquet",
+            "product_image": "https://i.ibb.co/k5jHyPP/chocolate.webp",
+            "product_detail":"Bouquet of Ferrero Rocher Chocolates- 16 pcs."
+        },
+        "product_price":"Rs. 1799/-",
+        "user":{
+            "user_name" : "Sidharth Verma",
+            "phone_no" : "9988776655"
+        },
+        "delivery_status":"Out For Delivery"
+    }
+]

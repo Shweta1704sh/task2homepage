@@ -1,0 +1,87 @@
+[
+    {
+        "_id":"o1",
+        "date_of_order":"21/10/2022",
+        "time_of_order":"01:00PM",
+        "place_of_delivery":"Shahdara",
+        "City_of_delivery":"Delhi",
+        "Country_of_delivery":"India",
+        "product_id":{
+            "_id":"p02"
+        },
+        "Quantity":1,
+        "product_price":"Rs. 824/-",
+        "user_id":{
+            "user_name" : "Smriti Verma",
+            "phone_no" : "9911586290"
+        }
+    },
+    {
+        "_id":"o2",
+        "date_of_order":"1/10/2022",
+        "time_of_order":"11:00PM",
+        "place_of_delivery":"Pune",
+        "City_of_delivery":"Maharashtra",
+        "Country_of_delivery":"India",
+        "product_id":{
+            "_id":"p01"
+        },
+        "Quantity":2,
+        "product_price":"Rs. 499/-",
+        "user_id" :{
+            "user_name" : "Rupal Jain",
+            "phone_no" : "9975856525"
+        }
+    },
+    {
+        "_id":"o3",
+        "date_of_order":"12/10/2022",
+        "time_of_order":"10:00PM",
+        "place_of_delivery":"Shimla",
+        "City_of_delivery":"Himachal Pradesh",
+        "Country_of_delivery":"India",
+        "product_id":{
+            "_id":"p04"
+        },
+        "Quantity":4,
+        "product_price":"Rs. 449/-", 
+        "user_id":{
+            "user_name" : "Suresh Kapoor ",
+            "phone_no" : "9910991096"
+        }
+    },
+    {
+        "_id":"o4",
+        "date_of_order":"15/10/2022",
+        "time_of_order":"11:49AM",
+        "place_of_delivery":"Bangalore",
+        "City_of_delivery":"Karnataka",
+        "Country_of_delivery":"India",
+        "product_id":{
+            "_id":"p03"
+        },
+        "Quantity":1,
+        "product_price":"Rs. 1749/-", 
+        "user_id":{
+            "user_name" : "Shweta Sharma",
+            "phone_no" : "9910961025"
+        }
+    },
+    {
+        "_id":"o5",
+        "date_of_order":"19/10/2022",
+        "time_of_order":"01:00PM",
+        "place_of_delivery":"Noida",
+        "City_of_delivery":"Uttar Pradesh",
+        "Country_of_delivery":"India",
+        "product_id":{
+            "_id":"p05"
+        },
+        "Quantity":5,
+        "product_price":"Rs. 4300/-", 
+        "user_id":{
+            "user_name" : "Sidharth Verma",
+            "phone_no" : "9988776655"
+        }
+    }
+]
