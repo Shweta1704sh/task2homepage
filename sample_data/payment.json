@@ -1,55 +1,55 @@
 [
     {
-        "_id":"pt01",
+        "p_id":1,
         "payment_date":"15/10/2022",
         "payment_mode":"paytm",
         "payment_status":"completed",
         "order":{
-            "_id":"o4"
+            "p_id":"o4"
         },
         "bill_amt":"Rs.1799/-"
     },
     {
-        "_id":"pt02",
+        "p_id":2,
         "payment_date":"1/10/2022",
         "payment_mode":"paytm",
         "payment_status":"cancelled",
         "bill_amt":"Rs. 1048/-",
         "order":{
-            "_id":"o2"
+            "o_id":"o2"
         }
     },
     {
-        "_id":"pt03",
+        "p_id":3,
         "payment_date":"2/11/2022",
         "payment_mode":"cash on delivery",
         "payment_status":"pending",
         "product_id":"plant_04",
         "product_price":"Rs. 1846/-",
         "order_id":{
-            "_id":"o3"
+            "o_id":"o3"
         }
     },
     {
-        "_id":"pt04",
+        "p_id":4,
         "payment_date":"19/10/2022",
         "payment_mode":"paytm",
         "payment_status":"completed",
         "product_id":"fruit_05",
         "product_price":"Rs. 21550/-",
         "order":{
-            "_id":"o5"
+            "o_id":"o5"
         }
     },
     {
-        "_id":"pt05",
+        "p_id":5,
         "payment_date":"21/10/2022",
         "payment_mode":"paytm",
         "payment_status":"completed",
         "product_id":"cake_02",
         "product_price":"Rs. 824/-",
         "order":{
-            "_id":"o1"
+            "o_id":"o1"
         }
     }
 ]

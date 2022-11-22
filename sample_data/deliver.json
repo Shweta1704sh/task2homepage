@@ -1,6 +1,6 @@
 [
     {
-        "_id":"d01",
+        "d_id":1,
         "date_of_delivery":"22/10/2022",
         "time_of_delivery":"11:00AM",
         "product":{
@@ -16,7 +16,7 @@
         "delivery_status":"Delivered"
     },
     {
-        "_id":"d02",
+        "d_id":2,
         "date_of_delivery":"22/10/2022",
         "time_of_delivery":"12:00AM",
         "product":{
@@ -32,7 +32,7 @@
         "delivery_status":"In Transit"
     },
     {
-        "_id":"d03",
+        "d_id":3,
         "date_of_delivery":"21/10/2022",
         "time_of_delivery":"09:00AM",
         "product":{
@@ -48,7 +48,7 @@
         "delivery_status":"Shipped"
     },
     {
-        "_id":"d04",
+        "d_id":4,
         "date_of_delivery":"17/10/2022",
         "time_of_delivery":"11:59PM",
         "product":{
