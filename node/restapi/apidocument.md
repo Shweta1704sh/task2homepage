@@ -1,15 +1,12 @@
-//page1
-
 >List of products
 http://localhost:9800/ProductDetails
 
-///page2
+
 >List of products wrt product category
 http://localhost:9800/ProductDetails/?CategoryId=2
 
-//page3
->Detail of products
-
+>Details of category
+http://localhost:9800/category
 
 >List of users
 http://localhost:9800/user

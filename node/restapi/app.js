@@ -11,9 +11,18 @@ let db;
 app.get('/',(req,res)=>{
     res.send('hii from express')
 })
+
 //user details
 app.get('/user',(req,res)=>{
     db.collection('user').find().toArray((err, result)=>{
+        if (err) throw err;
+        res.send(result)
+    })
+})
+
+//category Detail
+app.get('/category',(req,res)=>{
+    db.collection('category').find().toArray((err, result)=>{
         if (err) throw err;
         res.send(result)
     })
