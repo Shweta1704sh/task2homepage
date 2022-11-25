@@ -45,5 +45,14 @@
         "product_detail":"Luxury fruit basket with larger selection of Fresh and Exotic Fruits depending on the season ,decorated with ribbon.",
         "product_category":"Simple Pleasure",
         "category_id":5
-    }    
+    },
+    {
+        "p_id":6,
+        "product_name":"Roses Ferrero Rocher in Heart",
+        "product_price":"Rs. 1699/-",
+        "product_image":"https://i.ibb.co/wgWLvJf/FINF-012-800x800.jpg",
+        "product_detail":"24 Red Roses with 16 Pcs Ferrero Rocher in Heart Shaped Arrangement.",
+        "product_category":"Combos",
+        "category_id":6
+    }
 ]

@@ -19,4 +19,8 @@
         "category_id":5,
         "category_name":"Fruit Basket"
     }
+    {
+        "category_id":6,
+        "category_name":"Combos"
+    }
 ]

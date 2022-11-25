@@ -5,7 +5,7 @@ dotenv.config()
 let port = process.env.PORT || 7800;
 let mongo = require('mongodb');
 let MongoClient = mongo.MongoClient;
-let MongoUrl =process.env.MongoURL;
+let MongoUrl =process.env.LiveMongo;
 let db;
 
 app.get('/',(req,res)=>{
@@ -72,7 +72,7 @@ app.get('/DeliveryDetails',(req,res)=>{
 //connection with db
 MongoClient.connect(MongoUrl, (err, client)=>{
   if (err) console.log('error while connection');
-  db=client.db('flowerstation');
+  db=client.db('flowerdb');
   app.listen(port,()=>{
     console.log(`server ${port}`)
 })
