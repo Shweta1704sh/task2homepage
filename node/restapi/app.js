@@ -61,7 +61,6 @@ app.get('/PaymentDetails',(req,res)=>{
 })
 
 //Delivery Details
-
 app.get('/DeliveryDetails',(req,res)=>{
     db.collection('deliver').find().toArray((err, result)=>{
         if (err) throw err;
