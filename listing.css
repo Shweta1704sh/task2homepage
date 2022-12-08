@@ -3,102 +3,235 @@
     margin:auto;
     padding:auto;
 }
-.header 
+#header
 {
     background-color:#f8d8d9;
-    height:80px;
+    height:100px;
     width:100%;
-}
-#social
-{
-    float:right;
-    margin-top:1%;
-    padding-right:2%;
 }
 #brand
 {
     float:left;
-    padding-left:10px;
-    padding-top:10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#9d4159;
-    font-weight:bold;
-    
-    
 }
-.socialLogo
-{
-    height:50px;
-}
-a
-{
-    text-decoration:none;
-}
-#brand > h1
+#brand>h1
 {
     color:#ad69b0;
-    margin-left:1%;
-    margin-top:1%;
-}
-#QuickSearch
-{
-    width:100%;
-    margin-top:1%;
-    display:inline-block;
-}
-#content
-{
-    width:260px;
-    height:360px; 
-    float:left;
-    margin-top:2%;
-    margin-left:2%;
-}
-#DivImage
-{
-    width:80%;
-    height:200px;
-    
-}
-#DivImage > img
-{
-    width:100%;
-    height:200px;
-    border-radius:50%;
-}
-#DivDetail
-{
-    width:100%;
-    height:160px;
-    margin-top:1%;
-    text-align: center;
-    line-height:1.5em;
-}
-#DivDetail > button > a
-{
-    color:white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left:4%;
+    padding-top:-1%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    
-
 }
-.footer
+#brand>p
+{
+    color:#ab4f68;
+    padding-left:4%;
+    margin-top:-5%;
+    font-weight:bold; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#search>input
+{
+    width:20%;
+    height:40px;
+    display:inline-block;
+    margin-left:4%;
+    margin-top:2%;
+    border:none;
+    font-size:20px;
+    border-radius:5px;
+}
+#left
+{
+    margin-top:-3%;
+    height:80px;
+    width:25%;
+    margin-left:75%;   
+}
+#Icon
+{
+    width:32%;
+    display:inline-block;    
+}
+#Icon > a
+{
+    color:#bd2d45;
+}
+#coupon
+{
+    height:500px;
+    width:60%;
+    background-color:#C0C0C0;
+    z-index:100;
+    top:10%;
+    opacity:0.95;
+    margin-left:20%;
+    border: 3px dashed black;
+    position:fixed;
+    border-radius:10px;  
+}
+#couponHeading
+{
+    text-align:center;
+    color:yellow;
+    font-weight: bold;
+}
+#coupon>p
+{
+    text-align:center;
+    color:white;
+    font-size:25px;
+    font-weight: bold;
+    line-height:0.5;
+}
+#offer
+{
+    height:350px;
+    width:85%;
+}
+#offerImg
+{
+    width:50%;
+    height:325px;
+    float:left;
+    margin-top:5px;
+}
+#ImgStyle
+{
+    width:100%;
+    height:100%;
+}
+#offerDetail
+{
+    width:50%;
+    height:350px;
+    margin-left:50%;
+    padding-left:5%;
+}
+#offerButton
+{
+    margin-top:-10px;
+    margin-left:45%;
+}
+#banner
+{
+    height:50px;
+    width:100%;
+    background-color:#abe9d9;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+#links
+{
+    width:70%;
+    height:100%;
+    float:left;
+    padding-top:7px;
+}
+#linkStyle
+{
+    color:black;
+    margin-left:30px;
+    font-size:25px;
+}
+#IconTheme
+{
+    width:50%;
+    height:100%;
+}
+#sun
+{
+    border-radius:50%; 
+    float:right; 
+    padding-top:5px;
+    margin-right:15px;
+}
+#contentMain
+{
+    height:1000px;
+    width:100%;
+}
+#image
+{
+    height:350px;
+    width:20%;
+    margin-left:4%;
+    border:2px solid grey;
+    float:left;
+    margin-top:50px;
+    border-radius:5%;
+    text-align:center;
+    color:black
+}
+#product
+{
+    height:200px;
+    width:70%;
+    margin-top: 15px;
+}
+#product>img
+{
+    height:100%;
+    width:100%;
+}
+#information
+{
+    height:150px;
+    margin-top:4%;
+}
+#promotion
+{
+    margin-left:3%;
+    height:100%;
+    width:30%;
+    float:left;
+    margin-top:1%;
+    text-align:center; 
+}
+#payment, #follow
 {
     height:150px;
     width:100%;
+}
+#option
+{
+    height:100%;
+    width:30%;
+    float:left;
+    margin-left:3%;
+    text-align:center;
+}
+#operator
+{
+    font-size:60px;
+    color:silver;
+}
+.footer
+{
+    height:350px;
+    width:100%;
     text-align:center;
     background-color:#cc7c58;
+    color:black;
 }
 #footer
 {
     font-weight:bold;
-    padding:1%;
     font-size:20px;
+    padding-top: 1%;
+}
+#copy
+{
+    font-size:25px;
+    line-height:.5;
+    color:black;
 }
 #footDiv
 {
     float:left;
-    height:100px;
-    width:33%;
-    margin-top:1%;
+    width:25%;
+}          
+.mydark
+{
+    background-color:black;
+    color:white;
 }

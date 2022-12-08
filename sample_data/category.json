@@ -1,26 +1,106 @@
 [
     {
         "category_id":1,
-        "category_name":"Flowers"
+        "category_name":"All Flowers"
     },
     {
         "category_id":2,
-        "category_name":"Cake"
+        "category_name":"Roses"
     },
     {
         "category_id":3,
-        "category_name":"Chocolate"
+        "category_name":"Orchid"
     },
     {
         "category_id":4,
-        "category_name":"Plants"
+        "category_name":"Banquet and basket"
     },
     {
         "category_id":5,
-        "category_name":"Fruit Basket"
-    }
+        "category_name":"Lily Flowers"
+    },
     {
         "category_id":6,
-        "category_name":"Combos"
+        "category_name":"Cake"
+    },
+    {
+        "category_id":7,
+        "category_name":"Black Forest Cake"
+    },
+    {
+        "category_id":8,
+        "category_name":"Chocolate Cake"
+    },
+    {
+        "category_id":9,
+        "category_name":"Butterscotch Cake"
+    },
+    {
+        "category_id":10,
+        "category_name":"Red Velvet Cake"
+    },
+    {
+        "category_id":11,
+        "category_name":"Bamboo Plant"
+    },
+    {
+        "category_id":12,
+        "category_name":"Ficus Bonsai"
+    },
+    {
+        "category_id":13,
+        "category_name":"Alocasia Hybrid Plant"
+    },
+    {
+        "category_id":14,
+        "category_name":"Money Plant"
+    },
+    {
+        "category_id":15,
+        "category_name":"Indoor Plant"
+    },
+    {
+        "category_id":16,
+        "category_name":"Importred Chocolate"
+    },
+    {
+        "category_id":17,
+        "category_name":"Dark Chocolate"
+    },
+    {
+        "category_id":18,
+        "category_name":"Ferrero Chocolate"
+    },
+    {
+        "category_id":19,
+        "category_name":"Cadbury Chocolate"
+    },
+    {
+        "category_id":20,
+        "category_name":"Chocolate Hamper"
+    },
+    {
+        "category_id":21,
+        "category_name":"Classic Fruit Basket"
+    },
+    {
+        "category_id":22,
+        "category_name":"Simple Pleasure"
+    },
+    {
+        "category_id":23,
+        "category_name":"Orchard Harvest"
+    },
+    {
+        "category_id":24,
+        "category_name":"Fruits Harmony"
+    },
+    {
+        "category_id":25,
+        "category_name":"Mixed Fruit Basket"
+    },
+    {
+        "category_id":26,
+        "category_name":"Some Combo"
     }
 ]

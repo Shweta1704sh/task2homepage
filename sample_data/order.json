@@ -6,15 +6,16 @@
         "place_of_delivery":"Shahdara",
         "City_of_delivery":"Delhi",
         "Country_of_delivery":"India",
-        "product":{
-            "p_id":2
-        },
+        "p_id":2,
         "Quantity":1,
         "product_price":"Rs. 824/-",
-        "user":{
-            "user_name" : "Smriti Verma",
-            "phone_no" : "9911586290"
-        }
+        "user":[
+            {
+                "user_id" : 2,
+                "user_name" : "Smriti Verma",
+                "phone_no" : "9911586290"
+            }
+        ]
     },
     {
         "o_id":2,
@@ -23,15 +24,16 @@
         "place_of_delivery":"Pune",
         "City_of_delivery":"Maharashtra",
         "Country_of_delivery":"India",
-        "product":{
-            "p_id":1
-        },
+        "p_id":1,
         "Quantity":2,
         "product_price":"Rs. 499/-",
-        "user" :{
-            "user_name" : "Rupal Jain",
-            "phone_no" : "9975856525"
-        }
+        "user":[
+            {
+                "user_id" : 4,
+                "user_name" : "Rupal Jain",
+                "phone_no" : "9975856525"
+            }
+        ]
     },
     {
         "o_id":3,
@@ -40,15 +42,16 @@
         "place_of_delivery":"Shimla",
         "City_of_delivery":"Himachal Pradesh",
         "Country_of_delivery":"India",
-        "product":{
-            "p_id":4
-        },
+        "p_id":4,
         "Quantity":4,
         "product_price":"Rs. 449/-", 
-        "user":{
-            "user_name" : "Suresh Kapoor ",
-            "phone_no" : "9910991096"
-        }
+        "user":[
+            {
+                "user_id" : 5,
+                "user_name" : "Suresh Kapoor ",
+                "phone_no" : "9910991096"
+            }
+        ]
     },
     {
         "o_id":4,
@@ -57,15 +60,16 @@
         "place_of_delivery":"Bangalore",
         "City_of_delivery":"Karnataka",
         "Country_of_delivery":"India",
-        "product":{
-            "p_id":3
-        },
+        "p_id":3,
         "Quantity":1,
         "product_price":"Rs. 1749/-", 
-        "user":{
-            "user_name" : "Shweta Sharma",
-            "phone_no" : "9910961025"
-        }
+        "user":[
+            {
+                "user_id" : 1,
+                "user_name" : "Shweta Sharma",
+                "phone_no" : "9910961025"
+            }
+        ]
     },
     {
         "o_id":5,
@@ -74,14 +78,15 @@
         "place_of_delivery":"Noida",
         "City_of_delivery":"Uttar Pradesh",
         "Country_of_delivery":"India",
-        "product":{
-            "p_id":5
-        },
+        "p_id":5,
         "Quantity":5,
         "product_price":"Rs. 4300/-", 
-        "user":{
+        "user":[
+        {
+            "user_id" : 3,
             "user_name" : "Sidharth Verma",
             "phone_no" : "9988776655"
         }
+        ]
     }
 ]

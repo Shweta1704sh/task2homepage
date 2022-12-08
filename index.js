@@ -8,9 +8,12 @@ function closeCoupon(){
     document.getElementById('myCarousel').style.opacity='1'
 }
 
-function changeMode(){
+function changemode(x){
+    x.classList.toggle("fa-moon-o");
     let mybody = document.body;
     mybody.classList.toggle('mydark')
+
+
 }
 
 let x = document.getElementById('out');

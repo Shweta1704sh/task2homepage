@@ -6,7 +6,7 @@
         "product_image": "https://i.ibb.co/1ZzT4yW/Red-Roses-Bouquet.jpg",
         "product_detail":"Bouquet of 15 red roses with red paper packing",
         "product_category":"Bouquet Flower",
-        "category_id":1
+        "category_id":2
     },
     {
         "p_id":2,
@@ -15,7 +15,7 @@
         "product_image": "https://i.ibb.co/0nkQfXw/pw-white-forest-cake.jpg",
         "product_detail":"Tempting Delicious half kg white forest cake half kg.Ideal gift for birthday and anniversary.",
         "product_category":"Black Forest Cake",
-        "category_id":2
+        "category_id":7
     },
     {
         "p_id":3,
@@ -24,7 +24,7 @@
         "product_image": "https://i.ibb.co/k5jHyPP/chocolate.webp",
         "product_detail":"Bouquet of Ferrero Rocher Chocolates- 16 pcs.",
         "product_category":"Ferrero Chocolates",
-        "category_id":3
+        "category_id":18
     },
     
     {
@@ -44,7 +44,7 @@
         "product_image": "https://i.ibb.co/8r8s0t8/frt009-new.jpg",
         "product_detail":"Luxury fruit basket with larger selection of Fresh and Exotic Fruits depending on the season ,decorated with ribbon.",
         "product_category":"Simple Pleasure",
-        "category_id":5
+        "category_id":14
     },
     {
         "p_id":6,
@@ -53,6 +53,6 @@
         "product_image":"https://i.ibb.co/wgWLvJf/FINF-012-800x800.jpg",
         "product_detail":"24 Red Roses with 16 Pcs Ferrero Rocher in Heart Shaped Arrangement.",
         "product_category":"Combos",
-        "category_id":6
+        "category_id":26
     }
 ]
