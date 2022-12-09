@@ -9,11 +9,9 @@ function closeCoupon(){
 }
 
 function changemode(x){
-    x.classList.toggle("fa-moon-o");
+    x.classList.toggle("fas1");
     let mybody = document.body;
     mybody.classList.toggle('mydark')
-
-
 }
 
 let x = document.getElementById('out');
