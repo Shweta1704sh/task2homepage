@@ -330,15 +330,15 @@ li{
    #footDiv
    {
     width:100%;
+    padding-left:5%;
    }
 }
 @media screen and (max-width:1280px)
 {
     #content
     {
-        width:40%;
-        margin-left:5%;
-        margin-right:5%;
+        width:25%;
+        margin:3%;
         height:250px;
     }
 }
