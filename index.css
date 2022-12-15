@@ -283,7 +283,7 @@ li{
     width:100%;
     text-align:center;
     background-color:#333;
-    color:black;
+    color:white;
 }
 #footer
 {
@@ -295,7 +295,7 @@ li{
 {
     font-size:25px;
     line-height:.5;
-    color:black;
+    color:white;
 }
 #footDiv
 {
@@ -313,7 +313,7 @@ li{
     font-family: fontAwesome;
     color:white
 }
-@media screen and (min-width:100px)
+@media screen and (max-width:1000px)
 {
     #content
     {
@@ -333,13 +333,13 @@ li{
     padding-left:1%;
    }
 }
-@media screen and (min-width:1280px)
+@media screen and (max-width:1280px)
 {
     #content
     {
         width:25%;
-        margin:3%;
+        margin-left:4%;
+        margin-right:4%;
         height:250px;
     }
-    
 }
