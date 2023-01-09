@@ -3,9 +3,6 @@
     margin:auto;
     padding:auto;
 }
-li{
-    list-style-type:none;
-}
 #header
 {
     background-color:#f8d8d9;
@@ -320,20 +317,21 @@ li{
         width:40%;
         margin:5%;
         height:250px;
+        background-color: #333;
     }
     .footer
     {
-        height:820px;
+        height:500px;
         text-align: left;
         padding-left:20px;
     }
    #footDiv
    {
-    width:100%;
+    width:50%;
     padding-left:1%;
    }
 }
-@media screen and (max-width:1280px)
+@media screen and (min-width:1280px)
 {
     #content
     {
@@ -341,5 +339,6 @@ li{
         margin-left:4%;
         margin-right:4%;
         height:250px;
+        background-color: #501710;
     }
 }

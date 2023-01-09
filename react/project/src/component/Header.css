@@ -1,0 +1,51 @@
+*
+{
+    margin:auto;
+    padding:auto;
+}
+#header
+{
+    background-color:#f8d8d9;
+    height:100px;
+    width:100%;
+}
+#brand
+{
+    float:left;
+}
+#brand>h1
+{
+    color:#ad69b0;
+    padding-left:5%;
+    padding-top:2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+}
+#brand>p
+{
+    color:#ab4f68;
+    padding-left:5%;
+    margin-top:-5%;
+    font-weight:bold; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#banner
+{
+    width:90%;
+    margin-left:5%;
+    margin-top:2%;
+    height:500px;
+}
+#icon
+{
+    width:20%;
+    height:40%;
+    margin-left:80%;
+    padding-top:1%;
+}
+#icon>p
+{
+    color:#bd2d45;
+    float:left;
+    margin-left:5%;
+}

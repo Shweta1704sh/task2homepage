@@ -1,0 +1,54 @@
+#partition
+{
+    width:100%;
+    height:280px;
+    border-top: 4px dotted red;
+    border-bottom: 4px dotted red;
+}
+.covid
+{
+    width:50%;
+    margin-left:5%;
+    margin-top:30px;
+    float:left;
+}
+#CovidStrip
+{
+    height:40%;
+    width:100%;
+}
+.weather
+{
+    text-align:center;
+    margin-left:55%;
+    margin-top:30px;
+    width:30%;
+    height:80%;
+}
+#weatherOut
+{
+    color:crimson
+}
+#IconTheme
+{
+    text-align:center;
+    margin-left:85%;
+    margin-top:-14%;
+    width:15%;
+    height:80%;
+}
+#IconTheme>i
+{
+    font-size:30px;
+}
+.mydark
+{
+    background-color:black;
+    color:white;
+}
+.fas1::before
+{
+    content:"\f185";
+    font-family: fontAwesome;
+    color:white
+}

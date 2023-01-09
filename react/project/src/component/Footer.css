@@ -1,0 +1,61 @@
+#information
+{
+    height:150px;
+    margin-top:4%;
+}
+#promotion
+{
+    margin-left:3%;
+    height:100%;
+    width:30%;
+    float:left;
+    margin-top:1%;
+    text-align:center; 
+}
+#payment
+{
+    height:150px;
+    width:100%;
+}
+#option
+{
+    height:100%;
+    width:30%;
+    float:left;
+    margin-left:3%;
+    text-align:center;
+}
+#operator
+{
+    font-size:60px;
+    color:silver;
+}
+.footer
+{
+    height:350px;
+    width:100%;
+    text-align:center;
+    background-color:#333;
+    color:white;
+}
+#footer
+{
+    font-weight:bold;
+    font-size:20px;
+    padding-top: 1%;
+}
+#copy
+{
+    font-size:25px;
+    line-height:.5;
+    color:white;
+}
+#footDiv
+{
+    float:left;
+    width:25%;
+}
+#style1
+{
+    border-radius:10px
+}

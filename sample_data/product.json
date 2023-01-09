@@ -129,9 +129,9 @@
     },
     {
         "p_id":17,
-        "product_name":"FlowerStation Special Chocolate Bouquet",
+        "product_name":"Passionate Delight 5 Star Chocolate Bouquet",
         "cost":1049,
-        "product_image":"https://i.ibb.co/vJwFc6Z/fnp-special-chocolate-bouquet-3.jpg",
+        "product_image":"https://i.ibb.co/k9RgNBj/passionate-delight-5-star-chocolate-bouquet-2.webp",
         "product_detail":"Some Cadbury Premium Chocolates decorated with black and white paper tied with Satin Brown Ribbon",
         "category_id":22
     },
@@ -542,5 +542,245 @@
         "product_image":"https://i.ibb.co/zxc5hsX/73525.jpg",
         "product_detail":"A delicious white forest cake designed with white chocolate flakes and red Cherries for the celebration",
         "category_id":12
+    },
+    {
+        "p_id":69,
+        "product_name":"Jade Plant in Bunny Pot",
+        "cost":499,
+        "product_image":"https://i.ibb.co/KytkjCf/jade-plant-in-bunny-pot-9974377gf-A.jpg",
+        "product_detail":"Easy to care and require minimal attention. Accompanied with a resin rabbit adorned Resin vase, this evergreen beauty can make space stand out all year round. ",
+        "category_id":15
+    },
+    {
+        "p_id":70,
+        "product_name":"Monks In Jade Garden",
+        "cost":1249,
+        "product_image":"https://i.ibb.co/dLfh4tL/jade-plant-in-the-veranda-9902160pl-C.jpg",
+        "product_detail":"Bring one home belonging in the succulent and cactus category and enjoy the power of positivity in your vicinity 24*7.",
+        "category_id":15
+    },
+    {
+        "p_id":71,
+        "product_name":"I am Wealthy Groot",
+        "cost":699,
+        "product_image":"https://i.ibb.co/nBLxXzT/i-am-wealthy-groot-9937247pl-A.jpg",
+        "product_detail":"Gift it to your special ones on any occasion and send freshness and greenery their way. A fantastic gift for the Guardian of the Galaxy GROOT fan.",
+        "category_id":16
+    },
+    {
+        "p_id":72,
+        "product_name":"Golden Money Biker",
+        "cost":499,
+        "product_image":"https://i.ibb.co/kmwrpRL/golden-money-biker-9946677pl-A.jpg",
+        "product_detail":"The vase with a bicycle stand is leveling up the beauty of this luck and wealth barer plant.",
+        "category_id":16
+    },
+    {
+        "p_id":73,
+        "product_name":"Fortunate Money Plant",
+        "cost":699,
+        "product_image":"https://i.ibb.co/gmWHtTy/fortunate-money-plant-9860107pl-A-0.jpg",
+        "product_detail":"The money plant is an unique houseplant that has a reputation for attracting money. The plant will tolerate lower lighting levels and grow happily with little or no attention.",
+        "category_id":16
+    },
+    {
+        "p_id":74,
+        "product_name":"Cupids Bow",
+        "cost":699,
+        "product_image":"https://i.ibb.co/6vrBRzp/cupids-bow-9973350pl-A.jpg",
+        "product_detail":"The rose is a type of flowering shrub that belong to the family of plants called Rosaceae.",
+        "category_id":17
+    },
+    {
+        "p_id":75,
+        "product_name":"Ixora Jasmine Combo",
+        "cost":999,
+        "product_image":"https://i.ibb.co/L9CtzqY/ixora-jasmine-combo-9937050pl-A.jpg",
+        "product_detail":"A soothing combo of Jasmine and Ixora outdoor plant potted in beautiful white chatura vases made from imported plastic is a gift of health and soulful aroma.",
+        "category_id":17
+    },
+    {
+        "p_id":76,
+        "product_name":"Beautiful Flowery Plant",
+        "cost":499,
+        "product_image":"https://i.ibb.co/KD5p2K5/43193.jpg",
+        "product_detail":"Add tranquillity to your space with the glory of our blooming plants. They flower with bright and long-lasting flowers that float elegantly over the leaves.",
+        "category_id":17
+    },
+    {
+        "p_id":77,
+        "product_name":"Snowy Syngonium",
+        "cost":1099,
+        "product_image":"https://i.ibb.co/k2LXbxj/30206.jpg",
+        "product_detail":"Syngonium is also known as Arrowhead Plants, or Nephthys. Syngonium have leaves that are almost white, green & white, and various shades of pink or burgundy.",
+        "category_id":18
+    },
+    {
+        "p_id":78,
+        "product_name":"Unique Syngonium Dwarf Plant",
+        "cost":449,
+        "product_image":"https://i.ibb.co/zn9ZwSz/unique-syngonium-dwarf-plant-9964847pl-A.jpg",
+        "product_detail":"This adorable Syngonium dwarf plant which is planted in a special dog-shaped ceramic vase is the best way to wish them on their very special day.",
+        "category_id":18
+    },
+    {
+        "p_id":79,
+        "product_name":"Resin Home Syngonium",
+        "cost":899,
+        "product_image":"https://i.ibb.co/B3gyhQq/resin-home-syngonium-9851447pl-A-0.jpg",
+        "product_detail":"Grab the most easy to maintain, top rated air purifying indoor plant, Syngonium that is potted in a very attractive, aesthetically appealing miniature home vase. ",
+        "category_id":18
+    },
+    {
+        "p_id":80,
+        "product_name":"Surprise Of Love",
+        "cost":995,
+        "product_image":"https://i.ibb.co/nsDcGVW/p-delicious-box-of-16pc-assorted-homemade-chocolates-60745-m-1.jpg",
+        "product_detail":"This box of handmade chocolate is full of happiness and blissfulness. Arranged attractively in a premium pack. It will surely leave you asking more and more.",
+        "category_id":19
+    },
+    {
+        "p_id":81,
+        "product_name":"The Jolly Giftbox",
+        "cost":3500,
+        "product_image":"https://i.ibb.co/CKQh5yF/1-CG0374-1800x1800.jpg",
+        "product_detail":"A perfect chocolate combo for your loved ones",
+        "category_id":19
+    },
+    {
+        "p_id":82,
+        "product_name":"Intense Orange Dark Chocolate",
+        "cost":499,
+        "product_image":"https://i.ibb.co/vzVqcM6/intense-orange-dark-chocolate-1.jpg",
+        "product_detail":"Intense Dark Chocolate with a hint of Orange, Made with 100% cocoa butter",
+        "category_id":20
+    },
+    {
+        "p_id":83,
+        "product_name":"Dark Chocolate Covered Almonds",
+        "cost":1659,
+        "product_image":"https://i.ibb.co/WyTBhMq/76595-1.jpg",
+        "product_detail":"Perfect for on-the-go snacking, our Dark Chocolate Almonds are a nut-lovers dream come true.",
+        "category_id":20
+    },
+    {
+        "p_id":84,
+        "product_name":"Assorted Chocolate Gold Gift Box",
+        "cost":4100,
+        "product_image":"https://i.ibb.co/hX3jnKm/12522-1.jpg",
+        "product_detail":"When words can't aptly express your appreciation, our 36-piece Gold Gift Box tied with Thank You ribbon can.",
+        "category_id":20
+    },
+    {
+        "p_id":85,
+        "product_name":"Signature Truffle Trio",
+        "cost":4100,
+        "product_image":"https://i.ibb.co/3sJKX0G/20-28669-30-W-01ex.jpg",
+        "product_detail":"Indulge in luxurious chocolate with our individually boxed Signature Truffle Trio.",
+        "category_id":19
+    },
+    {
+        "p_id":86,
+        "product_name":"Rocher & Gypsophila Beautifully Tied Bouquet",
+        "cost":2899,
+        "product_image":"https://i.ibb.co/C5cwwzP/rocher-n-gypsophila-beautifully-tied-bouquet-2.webp",
+        "product_detail":"Why not make room for some delicacies with this special ferrero rocher bunch entwined in the form of an elegant bouquet.",
+        "category_id":21
+    },
+    {
+        "p_id":87,
+        "product_name":"Sweet Ferrero Rocher Vase",
+        "cost":1799,
+        "product_image":"https://i.ibb.co/fM876Yr/sweet-ferrero-rocher-vase-4.webp",
+        "product_detail":"16 Ferrero Rocher Chocolates packed beautifully in Purple Paper arranged in a Glass Vase Wrapped with Jute & Decorated with White Raffia",
+        "category_id":21
+    },
+    {
+        "p_id":88,
+        "product_name":"Love You Printed Ferrero Rocher Box",
+        "cost":1449,
+        "product_image":"https://i.ibb.co/LYgvq8P/love-you-printed-ferrero-rocher-box-2.webp",
+        "product_detail":"High quality UV printing on 24 pcs Ferrero Rocher Chocolate box",
+        "category_id":21
+    },
+    {
+        "p_id":89,
+        "product_name":"Ribbon Of Yellow Rust ",
+        "cost":1549,
+        "product_image":"https://i.ibb.co/DrFKxsV/39498.jpg",
+        "product_detail":"Plan a wonderful surprise for your dearest one with this lovely gift ensemble.",
+        "category_id":22
+    },
+    {
+        "p_id":90,
+        "product_name":"Toast Of Chocolates",
+        "cost":1999,
+        "product_image":"https://i.ibb.co/Pz0rTY8/37606.jpg",
+        "product_detail":"This is the best delight for your loved ones and will surely make them feel special.",
+        "category_id":22
+    },
+    {
+        "p_id":91,
+        "product_name":"Delicious Dairy Milk Tower",
+        "cost":1949,
+        "product_image":"https://i.ibb.co/RyK2tRg/delicious-dairy-milk-tower-1.jpg",
+        "product_detail":"Here is a dazzling 15 inches(approx) arrangement of 57 Cadbury Dairy Milk chocolates which would be an endearing gift for ypur near & dear",
+        "category_id":22
+    },
+    {
+        "p_id":92,
+        "product_name":"Delightful Aromatic Hamper",
+        "cost":3049,
+        "product_image":"https://i.ibb.co/SVFmNgG/delightful-aromatic-hamper-ven-38-kcmelhl001-A-0.jpg",
+        "product_detail":"A perfect combo of sweet & aromatic gift to your near and dear ones. It contains Parfum Set (Rebel, Neo, Lafi Man, Lavish) paired with Handmade Chocolate Gift Pack.",
+        "category_id":23
+    },
+    {
+        "p_id":93,
+        "product_name":"Choco Delights With Lantern",
+        "cost":999,
+        "product_image":"https://i.ibb.co/w7K5LjT/choco-delights-with-lantern-9835217gf-A-0.jpg",
+        "product_detail":"A delightful combination of hazelnut and milk chocolate, these cookies are a delicious treat with Lantern which is a symbol of optimism and light in the darkness.",
+        "category_id":23
+    },
+    {
+        "p_id":94,
+        "product_name":"Tempting Health Platter",
+        "cost":2495,
+        "product_image":"https://i.ibb.co/cc4mGFL/tempting-health-platter-ven-38-kcbhlbl008-C-0.jpg",
+        "product_detail":"A nutri-loaded hamper consist of Cheese Popcorn Can, Roasted MultiSeeds Jar, Coconut Cookies Bites, Raagi Cookies Bites, Handmade Chocolate Chatai Bomb, Handmade Chocolate Truffle.",
+        "category_id":23
+    },
+    {
+        "p_id":95,
+        "product_name":"Sugar Free Delicious Dark Chocolate",
+        "cost":649,
+        "product_image":"https://i.ibb.co/JRmHvG7/sugar-free-delicious-dark-chocolate-1.webp",
+        "product_detail":"",
+        "category_id":24
+    },
+    {
+        "p_id":96,
+        "product_name":"SUGAR FREE CHOCO BARS - PEANUT & COCONUT ASSORTED BOX",
+        "cost":399,
+        "product_image":"",
+        "product_detail":"With no processed sugar added whatsoever, these choco bars are super healthy to consume and also delicious to taste.",
+        "category_id":24
+    },
+    {
+        "p_id":97,
+        "product_name":"Delight Heart",
+        "cost":1550,
+        "product_image":"https://i.ibb.co/d6MBT58/webp-net-resizeimage-13-7.jpg",
+        "product_detail":"If you want to make someone happy, then you must gift this wonderful collection of 45 Kitkat Chocolates. It will surely make people smile.",
+        "category_id":24
+    },
+    {
+        "p_id":98,
+        "product_name":"Zevic Sugar Free Assorted Chocolates Gift Pack",
+        "cost":899,
+        "product_image":"https://i.ibb.co/59nhpJh/zevic-sugar-free-assorted-chocolates-gift-pack-1.webp",
+        "product_detail":"",
+        "category_id":24
     }
 ]

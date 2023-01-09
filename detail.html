@@ -1,29 +1,55 @@
 <html>
     <head>
+        <link rel="icon" href="https://i.ibb.co/D9NhTyF/360-F-157343659-AAoqx-Jk3-Yh-Ut-Oas-J2-XQs-Opmhk-E5p5gz5.jpg" border="0">
         <title>FlowerStation</title>
-        <link rel="stylesheet" href="detail.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="detail.css">
+        <script src="index.js"></script>
+        <style>
+            a:link
+            {
+                text-decoration: none;
+            }  
+            a:visited 
+            {
+                text-decoration: none;
+            } 
+            a:hover 
+            {
+                text-decoration: none;
+            }
+            a:active 
+            {
+                text-decoration:none;
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <div id="brand">
-                <h1>FlowerStation</h1>
-                <p>Send Flower Anywhere</p>
-            </div>
-            <div id="social">
-                <a href="home.html" target="_blank">
-                    <img src="https://i.ibb.co/j5Dqk56/home.png" alt="home"  class="socialLogo"/>
+        <div id="header">
+            <a class="navbar-brand" href="#">
+                <div id="brand">
+                    <h1>FlowerStation</h1>
+                    <p>Send Flower Anywhere</p>
+                </div>  
+            </a>
+            <div id="icon">
+                <a href="#">
+                    <i class="fa fa-user" style="font-size:36px; margin-left:30px;"></i>
+                    <p>Login/Register</p>
                 </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="https://i.ibb.co/19H5LvT/insta.png" alt="insta" class="socialLogo"/>
+                <a href="#">
+                    <i class="fa fa-phone" style="font-size:36px; margin-left:10px;"></i>
+                    <p>Support</p>
                 </a>
-                <a href="https://www.youtube.com/" target="_blank">
-                    <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="youtube" class="socialLogo"/>
-                </a>
-                 <a href="https://www.facebook.com/" target="_blank">
-                    <img src="https://i.ibb.co/wrG1PKh/facebook.png" alt="fb" class="socialLogo" />
-                </a>
-            </div>
-        </header>
+            </div>  
+        </div>
         <div id="container">
             <div id="containerImg">
                 <img src="images/RedRosesBouquet.jpg"/>
@@ -38,24 +64,67 @@
                 <button class="btn btn-success"><a href="listing.html">BACK</a></button>
             </div>
         </div>
-        <footer>
-            <p id="footer">&copy; FlowerStation</p>
+        <div class="footer">
+            <p id="footer">&copy;FlowerStation</p>
+            <p id="copy">All rights Reserved</p>
+            <div id="follow">
+                <a href="https://in.pinterest.com/"><i class="fa fa-pinterest" style="font-size:48px;color:red;"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square" style="font-size:48px;"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook" style="color:#3b5998;font-size:48px;"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="color:#E4405F;font-size:48px;"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter color" style="font-size:48px;"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" style="font-size:48px;color:red"></i></a>
+            </div>
+            
             <hr/>
             <div id="footDiv">
-                <h2>Information</h2>
+                <h2>About Company</hr></h2>
                 <p>About Us</p>
-                <p>Terms And Policy</p>
+                <p>Terms And Conditions</p>
+                <p>Blog</p>
             </div>
             <div id="footDiv">
                 <h2>Customer Services</h2>
                 <p>Contact Us</p>
                 <p>Site Map</p>
+                <p>Returns</p>
             </div>
             <div id="footDiv">
                 <h2>My Account</h2>
+                <p>Account</p>
                 <p>Wish List</p>
                 <p>Order History</p>
             </div>  
-        </footer>
+            <div id="footDiv">
+                <h2>Our Policies</h2>
+                <p>Refund Policy</p>
+                <p>Cancellation Policy</p>
+                <p>Privacy Policy</p>
+            </div>  
+        </div>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1300:{
+                        items:5
+                    },
+                    1200:{
+                        items:4
+                    }
+                }
+            })
+        </script>
+        <script>
+            window.onload = loadCoupon()
+        </script>
     </body>
 </html>
