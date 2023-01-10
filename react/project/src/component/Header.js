@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import { Link } from "react-router-dom";
 import './Header.css';
 
 class Header extends Component {
@@ -7,12 +8,12 @@ class Header extends Component {
             <React.Fragment>
                 <header>
                     <div id="header">
-                        <a className='navbar-brand' href="Home.js">
+                        <Link to ="/" className='navbar-brand'>
                             <div id="brand">
                                 <h1>FlowerStation</h1>
                                 <p>Send Flower Anywhere</p>
                             </div>  
-                        </a>
+                        </Link>
                         <div id="icon">
                             <p>
                                 <i className='fa fa-user' style={{fontSize:36, marginLeft:30}}></i>
