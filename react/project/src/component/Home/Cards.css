@@ -1,0 +1,32 @@
+.cards-frame{
+    width:235px;
+    height:250px; 
+    margin-top:2%;
+    margin-left:.5%;
+    display:inline-block;
+}
+.cards-frame img{
+    width:95%;
+    height:220px;
+    border-radius:50%;
+    display:inline-block;
+    margin-left:2%;
+}
+.cards-frame p{
+    color:#C5A35A;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width:1280px)
+{
+    .cards-frame
+    {
+        width:25%;
+        margin-left:4%;
+        margin-right:4%;
+        height:250px;
+
+    }
+}

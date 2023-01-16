@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "type":"Imported Chocolate",
+        "image":"https://i.ibb.co/NYVy7gJ/designer-assorted-chocolates-in-beautiful-box-24-pcs-1.jpg",
+        "category_id":19
+    },
+    {
+        "id":2,
+        "type":"Dark Chocolate",
+        "image":"https://i.ibb.co/gRFNZcV/premium-bournville-chocolate-bouquet-1.webp",
+        "category_id":20
+    },
+    {
+        "id":3,
+        "type":"Ferrero Chocolate",
+        "image":"https://i.ibb.co/vzvgDmV/ferrero-chocolates.webp",
+        "category_id":21
+    },
+    {
+        "id":4,
+        "type":"Cadbury Chocolate",
+        "image":"https://i.ibb.co/9TL3C0T/dairy-milk-chocolate-collection-1.webp",
+        "category_id":22
+    },
+    {
+        "id":5,
+        "type":"Chocolate Hamper",
+        "image":"https://i.ibb.co/n7hKSGv/chokola-yummy-goodies-leather-basket-1.webp",
+        "category_id":23
+    },
+    {
+        "id":6,
+        "image":"Nestle Chocolate",
+        "type":"https://i.ibb.co/ZW04CXH/kitkat-chocolates-birthday-1.webp",
+        "category_id":24
+        
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "type":"Roses",
+        "image":"https://i.ibb.co/gZVKGpS/bouquet-flowers.jpg",
+        "category_id":1
+    },
+    {
+        "id":2,
+        "type":"Gerberas",
+        "image":"https://i.ibb.co/MMJqJv4/Elegant-Flowers-Bouquet-of-Gerbera.jpg",
+        "category_id":2
+    },
+    {
+        "id":3,
+        "type":"Orchid",
+        "image":"https://i.ibb.co/2823RTP/flowers-glass-vasses.jpg",
+        "category_id":3
+    },
+    {
+        "id":4,
+        "type":"Mixed Flowers",
+        "image":"https://i.ibb.co/VLQ8MrM/all-flower-cetegery.jpg",
+        "category_id":4
+    },
+    {
+        "id":5,
+        "type":"Lilies",
+        "image":"https://i.ibb.co/HzK02vd/lillies-bouquets48438.jpg",
+        "category_id":5
+
+    },
+    {
+        "id":6,
+        "type":"Carnations",
+        "image":"https://i.ibb.co/j4HRG74/Flowers-Bouquet-Pink-Carnations.jpg",
+        "category_id":6
+    }
+]

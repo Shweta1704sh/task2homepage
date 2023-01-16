@@ -41,15 +41,17 @@ class Footer extends Component {
                         <p id="footer">&copy;FlowerStation</p>
                         <p id="copy">All rights Reserved</p>
                         <div id="follow">
-                            <a href="https://in.pinterest.com/"><i className='fa fa-pinterest' style={{fontSize:48,color:'red'}}></i></a>
-                            <a href="https://www.linkedin.com/"><i className='fa fa-linkedin-square' style={{fontSize:48}}></i></a>
-                            <a href="https://www.facebook.com/"><i className='fa fa-facebook' style={{color:'#3b5998',fontSize:48}}></i></a>
-                            <a href="https://www.instagram.com/"><i className='fa fa-instagram' style={{color:'#E4405F',fontSize:48}}></i></a>
-                            <a href="https://twitter.com/"><i className='fa fa-twitter color' style={{fontSize:48}}></i></a>
+                            <a href="https://in.pinterest.com/"><i className='fa fa-pinterest' style={{fontSize:48,marginRight:10,color:'red'}}></i></a>
+                            <a href="https://www.linkedin.com/"><i className='fa fa-linkedin-square' style={{fontSize:48,marginRight:10,}}></i></a>
+                            <a href="https://www.facebook.com/"><i className='fa fa-facebook' style={{color:'#1877f2',marginRight:10,fontSize:48}}></i></a>
+                            <a href="https://www.instagram.com/"><i className='fa fa-instagram' style={{color:'#E4405F',marginRight:10,fontSize:48}}></i></a>
+                            <a href="https://twitter.com/"><i className='fa fa-twitter color' style={{fontSize:48,marginRight:10,}}></i></a>
                             <a href="https://www.youtube.com/"><i className='fa fa-youtube-play' style={{fontSize:48,color:'red'}}></i></a>
                         </div>
-                        
                         <hr/>
+                        <h5>Made By Shweta Sharma</h5> 
+                        <hr/>
+                        
                         <div id="footDiv">
                             <h2>About Company</h2>
                             <p>About Us</p>
@@ -73,8 +75,10 @@ class Footer extends Component {
                             <p>Refund Policy</p>
                             <p>Cancellation Policy</p>
                             <p>Privacy Policy</p>
-                        </div>  
-                    </div>
+                        </div>
+                        <hr/>
+                         
+                    </div>                  
                 </footer>                    
             </React.Fragment>
         )

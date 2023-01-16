@@ -5,7 +5,8 @@
         "cost":499,
         "product_image": "https://i.ibb.co/1ZzT4yW/Red-Roses-Bouquet.jpg",
         "product_detail":"Bouquet of 15 red roses with red paper packing",
-        "category_id":1
+        "category_id":1,
+        "average_rating":4.5
     },
     {
         "p_id":2,
@@ -13,7 +14,8 @@
         "cost":824,
         "product_image": "https://i.ibb.co/0nkQfXw/pw-white-forest-cake.jpg",
         "product_detail":"Tempting Delicious half kg white forest cake.Ideal gift for birthday and anniversary.",
-        "category_id":8
+        "category_id":8,
+        "average_rating":5.0
     },
     {
         "p_id":3,
@@ -21,7 +23,8 @@
         "cost":1749,
         "product_image": "https://i.ibb.co/k5jHyPP/chocolate.webp",
         "product_detail":"Bouquet of Ferrero Rocher Chocolates- 16 pcs.",
-        "category_id":21
+        "category_id":21,
+        "average_rating":4.5
     },    
     {
         "p_id":4,
@@ -29,7 +32,8 @@
         "cost":449,
         "product_image": "https://i.ibb.co/Thqs4HZ/money-plant-red-black-texture-ceramic-pot.webp",
         "product_detail":"An Indoor/Outdoor money plant upto height 5inch with Red & Black Texture Tropical Ceramic Pot",
-        "category_id":16        
+        "category_id":16,
+        "average_rating":4.0     
     },
     {
         "p_id":5,
@@ -37,7 +41,8 @@
         "cost":1699,
         "product_image":"https://i.ibb.co/wgWLvJf/FINF-012-800x800.jpg",
         "product_detail":"24 Red Roses with 16 Pcs Ferrero Rocher in Heart Shaped Arrangement.",
-        "category_id":25
+        "category_id":25,
+        "average_rating":3.0
     },
     {
         "p_id":6,
@@ -45,7 +50,8 @@
         "cost":1443,
         "product_image":"https://i.ibb.co/rwLZKMf/Basket-of-Orchids.jpg",
         "product_detail":"Magical Orchids arrangement in aenchanting Basket",
-        "category_id":3
+        "category_id":3,
+        "average_rating":3.5
     },
     {
         "p_id":7,
@@ -53,7 +59,8 @@
         "cost":499,
         "product_image":"https://i.ibb.co/KywKYWZ/Express-Products-17-A.jpg",
         "product_detail":"Also known as a money magnetic in Feng Shui, Jade plant is known to invite growth and renewal into the home.",
-        "category_id":15
+        "category_id":15,
+        "average_rating":3.4
     },
     {
         "p_id":8,
@@ -61,7 +68,8 @@
         "cost":692,
         "product_image":"https://i.ibb.co/nDRFjhQ/phw-n-12-mx-ger.jpg",
         "product_detail":"Flowers Bouquet of 12 Mix Gerberas with nicely wrapped.",
-        "category_id":2
+        "category_id":2,
+        "average_rating":5.0
     },
     {
         "p_id":9,
@@ -69,7 +77,8 @@
         "cost":1038,
         "product_image":"https://i.ibb.co/xHKQZXR/pink-n-preety.jpg",
         "product_detail":"6 white Gerberas, 6pink roses and 6pink carnations in a basket",
-        "category_id":4
+        "category_id":4,
+        "average_rating":4.6
     },
     {
         "p_id":10,
@@ -77,7 +86,8 @@
         "cost":499,
         "product_image":"https://i.ibb.co/2KFdF6n/fantastic-jade-terrarium.webp",
         "product_detail":"Jade Plant is a perennial plant. It is a low-maintenance succulent with delicate pink or white flowers that bloom in the spring.",
-        "category_id":17
+        "category_id":17,
+        "average_rating":5.0
     },
     {
         "p_id":11,
@@ -85,7 +95,8 @@
         "cost":692,
         "product_image":"https://i.ibb.co/bF8PBZr/ph-12-rw-carnation.jpg",
         "product_detail":"Flowers Bouquet of 12 Red and White Carnations.",
-        "category_id":6
+        "category_id":6,
+        "average_rating":4.8
     },
     {
         "p_id":12,
@@ -93,7 +104,8 @@
         "cost":599,
         "product_image":"https://i.ibb.co/Y7NVyV4/heavenly-butterscotch-cream-cake-half-kg-1.jpg",
         "product_detail":"Send this Lip smacking delicious Half Kg (500gms) Eggless Butterscotch Cake to your loved ones",
-        "category_id":10
+        "category_id":10,
+        "average_rating":5.0
     },
     {
         "p_id":13,
@@ -101,7 +113,8 @@
         "cost":649,
         "product_image":"https://i.ibb.co/T8p5LM5/floral-vanilla-cream-cake-half-kg-1.jpg",
         "product_detail":"Send this Lip smacking delicious Half Kg (500gms) Eggless Vanila Cake to your loved ones",
-        "category_id":12
+        "category_id":12,
+        "average_rating":4.8
     },
     {
         "p_id":14,
@@ -109,7 +122,8 @@
         "cost":1749,
         "product_image":"https://i.ibb.co/nnxCWDr/ficus-ginseng-bonsai-in-sea-house-planter-hand-delivery-2.jpg",
         "product_detail":"Ficus Bonsai is an Air Purifying plant which can keep as indoor and outdoor",
-        "category_id":14
+        "category_id":14,
+        "average_rating":4.2
     },
     {
         "p_id":15,
@@ -117,7 +131,8 @@
         "cost":1199,
         "product_image":"https://i.ibb.co/JHvNhnh/14229-1.jpg",
         "product_detail":"The most exciting flavors and textures in 24-piece assorted dark chocolate truffles gift box",
-        "category_id":20
+        "category_id":20,
+        "average_rating":3.8
     },
     {
         "p_id":16,
@@ -125,15 +140,17 @@
         "cost":1599,
         "product_image":"https://i.ibb.co/YBvcfRc/30240.jpg",
         "product_detail":"These plants purify the room by absorbing the harmful gases, while some of them are good stress busters.",
-        "category_id":18
+        "category_id":18,
+        "average_rating":4.6
     },
     {
         "p_id":17,
         "product_name":"Passionate Delight 5 Star Chocolate Bouquet",
         "cost":1049,
-        "product_image":"https://i.ibb.co/k9RgNBj/passionate-delight-5-star-chocolate-bouquet-2.webp",
+        "product_image":"https://i.ibb.co/B4XDzBD/gaicom0682.jpg",
         "product_detail":"Some Cadbury Premium Chocolates decorated with black and white paper tied with Satin Brown Ribbon",
-        "category_id":22
+        "category_id":22,
+        "average_rating":4.0
     },
     {
         "p_id":18,
@@ -141,7 +158,8 @@
         "cost":599,
         "product_image":"https://i.ibb.co/pWTjtGc/ravishing-2-layer-bamboo-plant-9974297gf-A.jpg",
         "product_detail":"Double the luck and the happiness of your dearest one with a two-layered bamboo that comes in a beautiful smiling ceramic vase.",
-        "category_id":13
+        "category_id":13,
+        "average_rating":4.2
     },
     {
         "p_id":19,
@@ -149,7 +167,8 @@
         "cost":699,
         "product_image":"https://i.ibb.co/pPTHmYP/2-layer-bamboo-with-ganesha-9970577pl-A.jpg",
         "product_detail":"If the good luck and prosperity brought be the lucky bamboo tree was not enough, we have brought an auspicious combo of Ganesha idol with it.",
-        "category_id":13
+        "category_id":13,
+        "average_rating":4.8
     },
     {
         "p_id":20,
@@ -157,7 +176,8 @@
         "cost":849,
         "product_image":"https://i.ibb.co/6t8Lk2w/fengshui-bamboo-dragon-turtle-9899287pl-A.jpg",
         "product_detail":"Surround yourself with positivity & well being with this 2-layered bamboo plant in a turtle pot with dragon turtle decor.",
-        "category_id":13
+        "category_id":13,
+        "average_rating":2.8
     },
     {
         "p_id":21,
@@ -165,7 +185,8 @@
         "cost":1449,
         "product_image":"https://i.ibb.co/cTS7YqW/ficus-ball-shape-plant-9948517pl-AA.jpg",
         "product_detail":"Ficus Ball is commonly known as weeping fig, benjamin fig or ficus tree. ",
-        "category_id":14
+        "category_id":14,
+        "average_rating":2.5
     },
     {
         "p_id":22,
@@ -173,7 +194,8 @@
         "cost":1549,
         "product_image":"https://i.ibb.co/cXgjy3Q/ficus-longisland-bonsai-plant-9969997pl-A-0.jpg",
         "product_detail":"It is originated in Taiwan and Malaysia. # Regular feeding and constant cropping leads to a handsome appearance.",
-        "category_id":14
+        "category_id":14,
+        "average_rating":3.5
     },
     {
         "p_id":23,
@@ -181,7 +203,8 @@
         "cost":499,
         "product_image":"https://i.ibb.co/6rTVvnM/blue-hippo-ficus-9937217pl-A.jpg",
         "product_detail":"Say cheese while gifting adorable & noble as this Ficus Iceland plant which comes potted in an icy blue hippo plant pot.",
-        "category_id":14
+        "category_id":14,
+        "average_rating":4.2
     },
     {
         "p_id":24,
@@ -189,15 +212,17 @@
         "cost":2879,
         "product_image":"https://i.ibb.co/XXwKVbb/chokola-treasure-delectable-chocolate-hamper-2.webp",
         "product_detail":"Treasure box with a varied selection of milk and dark chocolates like Milk/Mint Mini, Butterscotch Crunchettes, Mixed Rochers",
-        "category_id":23
+        "category_id":23,
+        "average_rating":4.5
     },
     {
         "p_id":25,
         "product_name":"Lindt Chocolates Cane Basket Hamper",
         "cost":2499,
-        "product_image":"https://i.ibb.co/SnzMsTW/lindt-chocolates-cane-basket-hamper-1.webp",
+        "product_image":"https://i.ibb.co/p1kPt9Y/lindt-lindor-godiva-dryfruit-gift-basket-1.jpg",
         "product_detail":"Lindt Excellence Vanilla, Dark Orange Intense, Hershey's Cookies N Chocolate, Hershey's Cookies 'n' Creme packed in a Cane Basket",
-        "category_id":19
+        "category_id":19,
+        "average_rating":4.4
     },
     {
         "p_id":26,
@@ -205,15 +230,17 @@
         "cost":599,
         "product_image":"https://i.ibb.co/mNJm984/jade-plant-in-printed-vase-9973917pl-A.jpg",
         "product_detail":"Gift this cute life today to your beloved and as it says on the vase, 'Let the love grow' between you two.",
-        "category_id":15
+        "category_id":15,
+        "average_rating":4.8
     },
     {
         "p_id":27,
         "product_name":"Heart Red Velvet Cake",
         "cost":849,
-        "product_image":"https://i.ibb.co/CVXr06t/valentine-s-heart-red-velvet-cake-half-kg-2.webp",
+        "product_image":"https://i.ibb.co/vdnbWf2/heart-shaped-red-velvet-cake-cake1095redv-AA.jpg",
         "product_detail":"Celebrate the big opccasion in a grand manner with this beautiful yet gorgeous yummy 1kg Red Velvet Cake",
-        "category_id":11
+        "category_id":11,
+        "average_rating":2.2
     },
     {
         "p_id":28,
@@ -221,7 +248,8 @@
         "cost":659,
         "product_image":"https://i.ibb.co/gtHycLv/pw-good-luck-3-layer-lucky-bamboo-in-a-glass-vase-pebbles.jpg",
         "product_detail":"Three layer Lucky bamboo Lucky Bamboo is well-known for bringing good fortune, prosperity and happiness.",
-        "category_id":13
+        "category_id":13,
+        "average_rating":4.6
     },
     {
         "p_id":29,
@@ -229,7 +257,8 @@
         "cost":989,
         "product_image":"https://i.ibb.co/txtLV5f/q.jpg",
         "product_detail":"A perfect, pink arrangement of 2 pink lilies and cerise 6 red roses in a vase",
-        "category_id":5
+        "category_id":5,
+        "average_rating":2.5
     },
     {
         "p_id":30,
@@ -251,7 +280,7 @@
         "p_id":32,
         "product_name":"Rich Chocolate Splash Cake",
         "cost":699,
-        "product_image":"https://i.ibb.co/C5z2xQG/rich-chocolate-splash-cake-half-kg-5.webp",
+        "product_image":"https://i.ibb.co/T218c4y/rich-chocolate-splash-cake-1kg-1.jpg",
         "product_detail":"Cuddle them tight and mesmerize them with their favorite chocolate cake arranged from the best local bakery",
         "category_id":9
     },
@@ -403,7 +432,7 @@
         "p_id":51,
         "product_name":"Fruit Overload Cake",
         "cost":849,
-        "product_image":"https://i.ibb.co/NCcwpnm/fruit-overload-cake-half-kg-1.webp",
+        "product_image":"https://i.ibb.co/D9k6DvP/81-Ypxq-PObo-L-SX679.jpg",
         "product_detail":"Does pineapple rule your taste buds - If yes add this extra delicious heavenly treat into your cart and make the occasion turn delicious forever.",
         "category_id":7
     },
@@ -411,15 +440,15 @@
         "p_id":52,
         "product_name":"Rich Fruit Cake",
         "cost":849,
-        "product_image":"https://i.ibb.co/CQm5dFx/rich-fruit-cake-half-kg-1.webp",
+        "product_image":"https://i.ibb.co/7nwk576/0-I4-A5488copy-1000x1000.jpg",
         "product_detail":"Tempting Delicious half kg vanilla cake.Ideal gift for birthday and anniversary.",
         "category_id":7
     },
     {
         "p_id":53,
-        "product_name":"Wild Forest Cake",
+        "product_name":"Forest whipped Fruit Cake",
         "cost":949,
-        "product_image":"https://i.ibb.co/0jpLYds/wild-forest-cake-half-kg-1.webp",
+        "product_image":"https://i.ibb.co/kX5Gpsp/Forest-Fruit-Cake-3.jpg",
         "product_detail":"Who will say no to this delicious combination of vanilla and chocolate for birthday and anniversary.",
         "category_id":7
     },
@@ -443,7 +472,7 @@
         "p_id":56,
         "product_name":"Minions Theme Black Forest Cake",
         "cost":1349,
-        "product_image":"https://i.ibb.co/LQsRn91/minions-theme-black-forest-cake-1-kg-2.webp",
+        "product_image":"https://i.ibb.co/x1RVdSm/minions-theme-black-forest-cake-1-kg-1.webp",
         "product_detail":"A semi fondant Minions theme Black forest cake for you child",
         "category_id":8
     },
@@ -451,7 +480,7 @@
         "p_id":57,
         "product_name":"Chocolate Cake",
         "cost":949,
-        "product_image":"https://i.ibb.co/88wb0SP/fruit-chocolate-cake-1kg-1.jpg",
+        "product_image":"https://i.ibb.co/KX18N06/Double-Chocolatee-1701x1423-jpg.webp",
         "product_detail":"Send this Lip smacking delicious Half Kg (500gms) Chocolate Cake to your loved ones.",
         "category_id":9
     },
@@ -459,23 +488,23 @@
         "p_id":58,
         "product_name":"Creamilicious Chocolate Cream Cake",
         "cost":749,
-        "product_image":"https://i.ibb.co/MfkyBWD/creamilicious-chocolate-cream-cake-half-kg-1.webp",
+        "product_image":"https://i.ibb.co/vH4v1F8/creamilicious-chocolate-cream-cake-1-kg-1.jpg",
         "product_detail":"Send this Lip smacking delicious Half Kg (500gms) Creamilicious Chocolate Cream Cake to your loved ones.",
         "category_id":9
     },
     {
         "p_id":59,
-        "product_name":"Baby Boy Chocolate Cake",
+        "product_name":"A toy story Chocolate Cake",
         "cost":649,
-        "product_image":"https://i.ibb.co/0m8FQ7H/baby-boy-chocolate-cake-1-kg-1.webp",
-        "product_detail":"A semi fondant Choclate cake (1kg) for you baby boy",
+        "product_image":"https://i.ibb.co/x7QQsRw/6-Blog-Post-0.jpg",
+        "product_detail":"A semi fondant Choclate cake (1kg) for you sweet baby",
         "category_id":9
     },
     {
         "p_id":60,
         "product_name":"Butterscotch Cake With Rasmalai-!kg",
         "cost":1349,
-        "product_image":"https://i.ibb.co/TmxhJCq/butterscotch-cake-with-rasmalai-1kg-1.webp",
+        "product_image":"https://i.ibb.co/sbqB373/Butterscotch-Cake-With-Rasmalai.jpg",
         "product_detail":"Did you say Butterscotch with rasmalai- Go ahead with this delectable layer of deliciousness that would leave the recipient go crazy!",
         "category_id":10
     },
@@ -483,7 +512,7 @@
         "p_id":61,
         "product_name":"KitKat Butterscotch Cake",
         "cost":699,
-        "product_image":"https://i.ibb.co/XtmZVPn/kitkat-butterscotch-cake-half-kg-1.jpg",
+        "product_image":"https://i.ibb.co/W5fdbMG/kitkat-butterscotch-cake-1-kg-1.jpg",
         "product_detail":"That well deserved Kit Kat break for everyone is now in a more delicious form.",
         "category_id":10
     },
@@ -491,7 +520,7 @@
         "p_id":62,
         "product_name":"Pink Teddy Fondant Butterscotch Cake",
         "cost":749,
-        "product_image":"https://i.ibb.co/hVJ1fxd/pink-teddy-fondant-butterscotch-cake-half-kg-1.webp",
+        "product_image":"https://i.ibb.co/ZmYb3rf/pink-teddy-fondant-butterscotch-cake-1-kg-1.jpg",
         "product_detail":"A semi fondant pink teddy butterscotch cake for you baby",
         "category_id":10
     },
@@ -523,7 +552,7 @@
         "p_id":66,
         "product_name":"Pineapple Cake",
         "cost":499,
-        "product_image":"https://i.ibb.co/VMCpzf9/pineapple-cake-half-kg-1.jpg",
+        "product_image":"https://i.ibb.co/K7GF1v4/p-cherry-pineapple-cake-half-kg-4769-m.jpg",
         "product_detail":"If pineapple is the flavor that could satiate your temptation, this ambrosial Pineapple Eggless would completely delight you up.",
         "category_id":12
     },
@@ -651,7 +680,7 @@
         "p_id":82,
         "product_name":"Intense Orange Dark Chocolate",
         "cost":499,
-        "product_image":"https://i.ibb.co/vzVqcM6/intense-orange-dark-chocolate-1.jpg",
+        "product_image":"https://i.ibb.co/5hxcvV5/Lindt-Intense-Orange-1000x.jpg",
         "product_detail":"Intense Dark Chocolate with a hint of Orange, Made with 100% cocoa butter",
         "category_id":20
     },
@@ -683,7 +712,7 @@
         "p_id":86,
         "product_name":"Rocher & Gypsophila Beautifully Tied Bouquet",
         "cost":2899,
-        "product_image":"https://i.ibb.co/C5cwwzP/rocher-n-gypsophila-beautifully-tied-bouquet-2.webp",
+        "product_image":"https://i.ibb.co/4MdjxQj/1573648745-4.jpg",
         "product_detail":"Why not make room for some delicacies with this special ferrero rocher bunch entwined in the form of an elegant bouquet.",
         "category_id":21
     },
@@ -691,16 +720,16 @@
         "p_id":87,
         "product_name":"Sweet Ferrero Rocher Vase",
         "cost":1799,
-        "product_image":"https://i.ibb.co/fM876Yr/sweet-ferrero-rocher-vase-4.webp",
+        "product_image":"https://i.ibb.co/kqPBynq/have-a-ferrero-rocher-9904250chc-A.jpg",
         "product_detail":"16 Ferrero Rocher Chocolates packed beautifully in Purple Paper arranged in a Glass Vase Wrapped with Jute & Decorated with White Raffia",
         "category_id":21
     },
     {
         "p_id":88,
-        "product_name":"Love You Printed Ferrero Rocher Box",
+        "product_name":"Ferrero Rocher arranged in heart shape",
         "cost":1449,
-        "product_image":"https://i.ibb.co/LYgvq8P/love-you-printed-ferrero-rocher-box-2.webp",
-        "product_detail":"High quality UV printing on 24 pcs Ferrero Rocher Chocolate box",
+        "product_image":"https://i.ibb.co/LvWrLjf/ED49-B3-F5-3-A8-F-4-DBD-93-A8-B87-B4864133-F.jpg",
+        "product_detail":"This lovely heart shaped black box of 31 ferrero rocher chocolate will charm the heart of your loved one for sure",
         "category_id":21
     },
     {

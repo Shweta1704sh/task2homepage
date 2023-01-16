@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "type":"Fruit Cake",
+        "image":"https://i.ibb.co/LSkrh6G/fruit-chocolate-cake-1.webp",
+        "category_id":7
+    },
+    {
+        "id":2,
+        "type":"Black Forest Cake",
+        "image":"https://i.ibb.co/xjPsCSG/blackforest-cake.jpg",
+        "category_id":8
+    },
+    {
+        "id":3,
+        "type":"Chocolate cake",
+        "image":"https://i.ibb.co/QCVPV34/chocolaty-truffle-half.jpg",
+        "category_id":9
+    },
+    {
+        "id":4,
+        "type":"Butterscotch Cake",
+        "image":"https://i.ibb.co/RDcfzJF/mixfruitcake.jpg",
+        "category_id":10
+    },
+    {
+        "id":5,
+        "type":"Red Velvet Cake",
+        "image":"https://i.ibb.co/0q1x82G/fresh-red-velvet-cream-cake-half-kg-1.webp",
+        "category_id":11
+    },
+    {
+        "id":6,
+        "image":"Eggless Cake",
+        "type":"https://i.ibb.co/3Mrgf1T/pw-white-forest-cake.jpg",
+        "category_id":12
+        
+    }
+]

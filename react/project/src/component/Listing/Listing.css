@@ -1,25 +1,28 @@
-
-#container
+.row
 {
     width:100%;
-    height:500px;
-    border:2px solid red;
 }
-#tilecontainer1{
-    width:20%;
+#container
+{
+    width:22%;
+    height:500px;
+    float:left;
+    margin-left:2%;
+}
+#tileContainer1{
+    width:85%;
     height:300px;
     float:left;
     margin-left:3.5%;
     margin-top:20px;
-    border:2px solid red;
 }
 #ProductImage
 {
     width:80%;
     margin-left:10%;
-    height:70%;
+    height:80%;
     margin-top:10%;
-    border:2px solid red;
+    border:2px solid blue;
 }
 #ProductImage>img{
     height:100%;
@@ -28,5 +31,8 @@
 #ProductContent
 {
     text-align:center;
+    color:black;
+    font-weight:bold;
+    font-size: 16px;
 
 }

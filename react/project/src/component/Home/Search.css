@@ -37,3 +37,22 @@
     font-size:20px;
     font-weight: bold;
 }
+@media screen and (max-width:1000px)
+{
+    #content
+    {
+        width:40%;
+        margin:5%;
+        height:250px;
+    }
+}
+@media screen and (min-width:1280px)
+{
+    #content
+    {
+        width:25%;
+        margin-left:4%;
+        margin-right:4%;
+        height:250px;
+    }
+}

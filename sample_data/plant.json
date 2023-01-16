@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "type":"Bamboo Plant",
+        "image":"https://i.ibb.co/MPjynkz/FINEGP.jpg",
+        "category_id":13
+    },
+    {
+        "id":2,
+        "type":"Ficus Bonsai",
+        "image":"https://i.ibb.co/bR9Jt9t/FINEGP1.jpg",
+        "category_id":14
+    },
+    {
+        "id":3,
+        "type":"Jade Plant",
+        "image":"https://i.ibb.co/MSbWRDj/desirous-jade-plant-9872080pl-A-0.jpg",
+        "category_id":15
+    },
+    {
+        "id":4,
+        "type":"Money Plant",
+        "image":"https://i.ibb.co/7W82bfZ/FINEGP5.jpg",
+        "category_id":16
+    },
+    {
+        "id":5,
+        "type":"Flowering Plant",
+        "image":"https://i.ibb.co/R4WtkrG/FINEGP-011-800x800.jpg",
+        "category_id":17
+    },
+    {
+        "id":6,
+        "image":"Syngonium Plant",
+        "type":"https://i.ibb.co/FH2PjKX/FINEGP-035-250x250.jpg",
+        "category_id":18
+        
+    }
+]

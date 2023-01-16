@@ -32,7 +32,7 @@
 }
 .footer
 {
-    height:350px;
+    height:400px;
     width:100%;
     text-align:center;
     background-color:#333;
@@ -58,4 +58,18 @@
 #style1
 {
     border-radius:10px
+}
+@media screen and (max-width:1000px)
+{
+    .footer
+    {
+        height:550px;
+        text-align: left;
+        padding-left:20px;
+    }
+   #footDiv
+   {
+    width:50%;
+    padding-left:1%;
+   }
 }
