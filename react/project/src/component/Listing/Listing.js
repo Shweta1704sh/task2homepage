@@ -4,7 +4,7 @@ import './Listing.css';
 import Header from '../Header';
 import ListingDisplay from './ListingDisplay';
 
-    const listurl = "https://flowerstationapi.onrender.com/ProductDetails/?CategoryId="
+const listurl = "https://flowerstationapi.onrender.com/ProductDetails/?CategoryId="
 
 class Listing extends Component {
     constructor(props){
@@ -23,8 +23,11 @@ class Listing extends Component {
         return(
             <>
                 <Header/>
-                <div className="row">
-                    <ListingDisplay listData={this.state.ProductList}/>
+                <div className='col'>
+                    <div className="filter"></div>
+                    <div className="row">
+                        <ListingDisplay listData={this.state.ProductList}/>
+                    </div>
                 </div>
             </>
         )

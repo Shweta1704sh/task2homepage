@@ -86,6 +86,23 @@ app.get('/ProductDetails',(req,res)=>{
   })
 })
 
+app.get('/Details',(req,res)=>{
+  let query={}
+  let p_id = Number(req.query.p_id)
+  if(p_id)
+  {
+    query= {p_id:p_id}
+  }
+  else{
+    query={}
+  }
+  db.collection('product').find(query).toArray((err, result)=>{
+    if (err) throw err;
+    res.send(result)
+  })
+})
+
+
 //filter cost
 app.get('/filter/:productId',(req,res) => {
   let query = {};

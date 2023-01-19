@@ -210,7 +210,7 @@
         "p_id":24,
         "product_name":"Chokola Treasure Delectable Chocolate Hamper",
         "cost":2879,
-        "product_image":"https://i.ibb.co/XXwKVbb/chokola-treasure-delectable-chocolate-hamper-2.webp",
+        "product_image":"https://i.ibb.co/HnFr929/chokola-treasure-hamper.jpg",
         "product_detail":"Treasure box with a varied selection of milk and dark chocolates like Milk/Mint Mini, Butterscotch Crunchettes, Mixed Rochers",
         "category_id":23,
         "average_rating":4.5
@@ -266,7 +266,8 @@
         "cost":399,
         "product_image":"https://i.ibb.co/VmsT4v3/peace-lily-plant-orange-plastic-pot-3.webp",
         "product_detail":"Peace lily is a member of the Araceae family and grows in the tropical rainforests of Colombia and Venezuela.",
-        "category_id":17
+        "category_id":17,
+        "average_rating":5.0
     },
     {
         "p_id":31,
@@ -274,7 +275,8 @@
         "cost":1759,
         "product_image":"https://i.ibb.co/mz6v3R6/fruitcheescake.jpg",
         "product_detail":"Indulge your tastebuds with this mouth smacking 1kg Cheese cake  topped with fresh cream",
-        "category_id":7
+        "category_id":7,
+        "average_rating":4.4
     },
     {
         "p_id":32,
@@ -282,7 +284,8 @@
         "cost":699,
         "product_image":"https://i.ibb.co/T218c4y/rich-chocolate-splash-cake-1kg-1.jpg",
         "product_detail":"Cuddle them tight and mesmerize them with their favorite chocolate cake arranged from the best local bakery",
-        "category_id":9
+        "category_id":9,
+        "average_rating":4.8
     },
     {
         "p_id":33,
@@ -290,7 +293,8 @@
         "cost":549,
         "product_image":"https://i.ibb.co/PtpNb9f/Flowers-Bouquet-Kind-Heart.jpg",
         "product_detail":"Flowers bouquet-Bunch of 12 white and pink roses designed with seasonal greens and fillers.",
-        "category_id":1
+        "category_id":1,
+        "average_rating":4.4
     },
     {
         "p_id":34,
@@ -298,7 +302,8 @@
         "cost":549,
         "product_image":"https://i.ibb.co/Tg2M4nh/pw-12-rr.jpg",
         "product_detail":"Flowers Hand Bouquet of 12 Red Roses with seasonal fillers",
-        "category_id":1
+        "category_id":1,
+        "average_rating":3.8
     },
     {
         "p_id":35,
@@ -306,7 +311,8 @@
         "cost":807,
         "product_image":"https://i.ibb.co/B6HFkC5/phw-n-16-rpoy-r.jpg",
         "product_detail":"Flowers Bouquet of 16 Red, Pink, Orange and Yellow Roses with nicely wrapped.",
-        "category_id":1
+        "category_id":1,
+        "average_rating":3.0
     },
     {
         "p_id":36,
@@ -314,7 +320,8 @@
         "cost":807,
         "product_image":"https://i.ibb.co/mtbJqWr/ph-12-yo-ger.jpg",
         "product_detail":"Flowers Bouquet of 12 Orange and Yellow Gerberas.",
-        "category_id":2
+        "category_id":2,
+        "average_rating":5.0
     },
     {
         "p_id":37,
@@ -322,7 +329,8 @@
         "cost":549,
         "product_image":"https://i.ibb.co/D7h6dJT/pw-15pink-gerbera-n.jpg",
         "product_detail":"Bouquet of 12 Pink Color Gerberas with green fillers in Tissue Wrapping with Ribbon Bow on it",
-        "category_id":2
+        "category_id":2,
+        "average_rating":4.4
     },
     {
         "p_id":38,
@@ -330,7 +338,8 @@
         "cost":549,
         "product_image":"https://i.ibb.co/0nNqKdR/8-yelow-gerbera-bouqet.jpg",
         "product_detail":"8 Red Color Gerberas with green fillers in Tissue Wrapping with Ribbon Bow on it",
-        "category_id":2
+        "category_id":2,
+        "average_rating":4.0
     },
     {
         "p_id":39,
@@ -338,7 +347,8 @@
         "cost":1269,
         "product_image":"https://i.ibb.co/zh4LQdW/ph-8-p-orchids.jpg",
         "product_detail":"Flowers Bouquet of 8 Purple or Blue or White Orchids.",
-        "category_id":3
+        "category_id":3,
+        "average_rating":4.5
     },
     {
         "p_id":40,
@@ -346,7 +356,8 @@
         "cost":1429,
         "product_image":"https://i.ibb.co/80DgFNs/Orchids-Extravaganza.jpg",
         "product_detail":"This lavish bouquet of 12 Purple Orchids are adorned with fresh green leaves and wrapped elegantly and gracefully.",
-        "category_id":3
+        "category_id":3,
+        "average_rating":5.0
     },
     {
         "p_id":41,
@@ -354,7 +365,8 @@
         "cost":2252,
         "product_image":"https://i.ibb.co/yWMwgbt/20-purple-orchids-valentine-gifts-to-india.jpg",
         "product_detail":"Bunch of 20 purple orchids with green fillers in a lavish bouquet.",
-        "category_id":3
+        "category_id":3,
+        "average_rating":4.4
     },
     {
         "p_id":42,
@@ -362,7 +374,8 @@
         "cost":1605,
         "product_image":"https://i.ibb.co/cx7hpyT/Roses-Lilies-And-Orchid.jpg",
         "product_detail":"3 white roses and 3 white lilies and 3 white orchid in a Designer vase.",
-        "category_id":4
+        "category_id":4,
+        "average_rating":3.5
     },
     {
         "p_id":43,
@@ -370,7 +383,8 @@
         "cost":659,
         "product_image":"https://i.ibb.co/xF2m6GW/Flowers-Combo-Carnations-Roses.jpg",
         "product_detail":"Bouquet of 6 Red roses with 4 red carnations in a paper packing",
-        "category_id":4
+        "category_id":4,
+        "average_rating":5.0
     },
     {
         "p_id":44,
@@ -378,7 +392,8 @@
         "cost":2021,
         "product_image":"https://i.ibb.co/tcXMq9q/lucky-lady.jpg",
         "product_detail":"Basket of 5 white Asiatic lilies and 15 red carnations and 4 red Gerberas with green fillers",
-        "category_id":4
+        "category_id":4,
+        "average_rating":4.5
     },
     {
         "p_id":45,
@@ -386,7 +401,8 @@
         "cost":1097,
         "product_image":"https://i.ibb.co/qBg0Rmq/Dual-Affair.jpg",
         "product_detail":"10 Red roses & 3 Asiatic Lilies",
-        "category_id":5
+        "category_id":5,
+        "average_rating":4.5
     },
     {
         "p_id":46,
@@ -394,7 +410,8 @@
         "cost":1500,
         "product_image":"https://i.ibb.co/y6rHrqN/phw-b-12-p-cl.jpgc",
         "product_detail":"Flowers Basket of 12 Pink Carnations and Lilium.",
-        "category_id":5
+        "category_id":5,
+        "average_rating":5.0
     },
     {
         "p_id":47,
@@ -402,7 +419,8 @@
         "cost":2749,
         "product_image":"https://i.ibb.co/gdcKBfK/phw-12-pwlilies-nw.jpg",
         "product_detail":"The assortment of 6 white and 6 pink lilies in an elegant glass vase",
-        "category_id":5
+        "category_id":5,
+        "average_rating":5.0
     },
     {
         "p_id":48,
@@ -410,7 +428,8 @@
         "cost":807,
         "product_image":"https://i.ibb.co/7K8kr7F/phw-n-12-pw-c.jpg",
         "product_detail":"Flowers Bouquet of 12 Pink and White Carnations.",
-        "category_id":6
+        "category_id":6,
+        "average_rating":5.0
     },
     {
         "p_id":49,
@@ -418,7 +437,8 @@
         "cost":1038,
         "product_image":"https://i.ibb.co/1X7ZSF5/phw-18-prrc-nw.jpg",
         "product_detail":"Exotic Arrangement of 6Pink ,6Red Roses,6 Carnations In a glass vase with a matching ribbon",
-        "category_id":6
+        "category_id":6,
+        "average_rating":2.8
     },
     {
         "p_id":50,
@@ -426,7 +446,8 @@
         "cost":1559,
         "product_image":"https://i.ibb.co/Bwj3bb7/blushing-pink.jpg",
         "product_detail":"18 pink Flower boquet of rose carnation lilies &gerberas 6 each.",
-        "category_id":6
+        "category_id":6,
+        "average_rating":4.8
     },
     {
         "p_id":51,
@@ -434,7 +455,8 @@
         "cost":849,
         "product_image":"https://i.ibb.co/D9k6DvP/81-Ypxq-PObo-L-SX679.jpg",
         "product_detail":"Does pineapple rule your taste buds - If yes add this extra delicious heavenly treat into your cart and make the occasion turn delicious forever.",
-        "category_id":7
+        "category_id":7,
+        "average_rating":4.6
     },
     {
         "p_id":52,
@@ -442,7 +464,8 @@
         "cost":849,
         "product_image":"https://i.ibb.co/7nwk576/0-I4-A5488copy-1000x1000.jpg",
         "product_detail":"Tempting Delicious half kg vanilla cake.Ideal gift for birthday and anniversary.",
-        "category_id":7
+        "category_id":7,
+        "average_rating":4.5
     },
     {
         "p_id":53,
@@ -450,7 +473,8 @@
         "cost":949,
         "product_image":"https://i.ibb.co/kX5Gpsp/Forest-Fruit-Cake-3.jpg",
         "product_detail":"Who will say no to this delicious combination of vanilla and chocolate for birthday and anniversary.",
-        "category_id":7
+        "category_id":7,
+        "average_rating":3.5
     },
     {
         "p_id":54,
@@ -458,7 +482,8 @@
         "cost":649,
         "product_image":"https://i.ibb.co/gPKB4sR/black-forest-designer-cake-half-kg-1.webp",
         "product_detail":"Craving for the real Black Forest flavor - Here s an ambrosial treat for all you black forest lovers.",
-        "category_id":8
+        "category_id":8,
+        "average_rating":4.0
     },
     {
         "p_id":55,
@@ -466,7 +491,8 @@
         "cost":699,
         "product_image":"https://i.ibb.co/TB73Y49/creamy-drip-black-forest-cake-half-kg-1.webp",
         "product_detail":"Here s a dream cake for every Black Forest cake lover.",
-        "category_id":8
+        "category_id":8,
+        "average_rating":4.5
     },
     {
         "p_id":56,
@@ -474,7 +500,8 @@
         "cost":1349,
         "product_image":"https://i.ibb.co/x1RVdSm/minions-theme-black-forest-cake-1-kg-1.webp",
         "product_detail":"A semi fondant Minions theme Black forest cake for you child",
-        "category_id":8
+        "category_id":8,
+        "average_rating":5.0
     },
     {
         "p_id":57,
@@ -482,7 +509,8 @@
         "cost":949,
         "product_image":"https://i.ibb.co/KX18N06/Double-Chocolatee-1701x1423-jpg.webp",
         "product_detail":"Send this Lip smacking delicious Half Kg (500gms) Chocolate Cake to your loved ones.",
-        "category_id":9
+        "category_id":9,
+        "average_rating":4.5
     },
     {
         "p_id":58,
@@ -490,7 +518,8 @@
         "cost":749,
         "product_image":"https://i.ibb.co/vH4v1F8/creamilicious-chocolate-cream-cake-1-kg-1.jpg",
         "product_detail":"Send this Lip smacking delicious Half Kg (500gms) Creamilicious Chocolate Cream Cake to your loved ones.",
-        "category_id":9
+        "category_id":9,
+        "average_rating":2.0
     },
     {
         "p_id":59,
@@ -498,7 +527,8 @@
         "cost":649,
         "product_image":"https://i.ibb.co/x7QQsRw/6-Blog-Post-0.jpg",
         "product_detail":"A semi fondant Choclate cake (1kg) for you sweet baby",
-        "category_id":9
+        "category_id":9,
+        "average_rating":1.0
     },
     {
         "p_id":60,
@@ -506,7 +536,8 @@
         "cost":1349,
         "product_image":"https://i.ibb.co/sbqB373/Butterscotch-Cake-With-Rasmalai.jpg",
         "product_detail":"Did you say Butterscotch with rasmalai- Go ahead with this delectable layer of deliciousness that would leave the recipient go crazy!",
-        "category_id":10
+        "category_id":10,
+        "average_rating":5.0
     },
     {
         "p_id":61,
@@ -514,7 +545,8 @@
         "cost":699,
         "product_image":"https://i.ibb.co/W5fdbMG/kitkat-butterscotch-cake-1-kg-1.jpg",
         "product_detail":"That well deserved Kit Kat break for everyone is now in a more delicious form.",
-        "category_id":10
+        "category_id":10,
+        "average_rating":4.6
     },
     {
         "p_id":62,
@@ -522,7 +554,8 @@
         "cost":749,
         "product_image":"https://i.ibb.co/ZmYb3rf/pink-teddy-fondant-butterscotch-cake-1-kg-1.jpg",
         "product_detail":"A semi fondant pink teddy butterscotch cake for you baby",
-        "category_id":10
+        "category_id":10,
+        "average_rating":3.8
     },
     {
         "p_id":63,
@@ -530,7 +563,8 @@
         "cost":695,
         "product_image":"https://i.ibb.co/dBgTRbh/p-heavenly-red-velvet-cake-600-gm-190852-m.jpg",
         "product_detail":"This creamy and delicious red and white frosting cake is the perfect choice for birthdays and all other special celebrations.",
-        "category_id":11
+        "category_id":11,
+        "average_rating":1.8
     },
     {
         "p_id":64,
@@ -538,7 +572,8 @@
         "cost":849,
         "product_image":"https://i.ibb.co/2hZhy2P/mushy-red-velvet-9870960ca-A-0.jpg",
         "product_detail":"It is just the right size, right taste, and right color to make your heart while the cake melts in your mouth.",
-        "category_id":11
+        "category_id":11,
+        "average_rating":2.0
     },
     {
         "p_id":65,
@@ -546,7 +581,8 @@
         "cost":1499,
         "product_image":"https://i.ibb.co/7ndd47w/50428.jpg",
         "product_detail":"Get this trending Pinata cake and make your events even more delightful and interesting. ",
-        "category_id":11
+        "category_id":11,
+        "average_rating":5.0
     },
     {
         "p_id":66,
@@ -554,7 +590,8 @@
         "cost":499,
         "product_image":"https://i.ibb.co/K7GF1v4/p-cherry-pineapple-cake-half-kg-4769-m.jpg",
         "product_detail":"If pineapple is the flavor that could satiate your temptation, this ambrosial Pineapple Eggless would completely delight you up.",
-        "category_id":12
+        "category_id":12,
+        "average_rating":4.6
     },
     {
         "p_id":67,
@@ -562,7 +599,8 @@
         "cost":1649,
         "product_image":"https://i.ibb.co/qdLt9Hd/sprinkled-chocolate-pinata-cake-9877560ca-G.jpg",
         "product_detail":"Break into happiness as you opt for this chocolate eggless pinata cake drizzled with some colourful sprinkles,2 KitKat chocolate bar and Ferrero Rocher chocolate.",
-        "category_id":12
+        "category_id":12,
+        "average_rating":4.8
     },
     {
         "p_id":68,
@@ -570,7 +608,8 @@
         "cost":749,
         "product_image":"https://i.ibb.co/zxc5hsX/73525.jpg",
         "product_detail":"A delicious white forest cake designed with white chocolate flakes and red Cherries for the celebration",
-        "category_id":12
+        "category_id":12,
+        "average_rating":5.0
     },
     {
         "p_id":69,
@@ -578,7 +617,8 @@
         "cost":499,
         "product_image":"https://i.ibb.co/KytkjCf/jade-plant-in-bunny-pot-9974377gf-A.jpg",
         "product_detail":"Easy to care and require minimal attention. Accompanied with a resin rabbit adorned Resin vase, this evergreen beauty can make space stand out all year round. ",
-        "category_id":15
+        "category_id":15,
+        "average_rating":4.6
     },
     {
         "p_id":70,
@@ -586,7 +626,8 @@
         "cost":1249,
         "product_image":"https://i.ibb.co/dLfh4tL/jade-plant-in-the-veranda-9902160pl-C.jpg",
         "product_detail":"Bring one home belonging in the succulent and cactus category and enjoy the power of positivity in your vicinity 24*7.",
-        "category_id":15
+        "category_id":15,
+        "average_rating":4.4
     },
     {
         "p_id":71,
@@ -594,7 +635,8 @@
         "cost":699,
         "product_image":"https://i.ibb.co/nBLxXzT/i-am-wealthy-groot-9937247pl-A.jpg",
         "product_detail":"Gift it to your special ones on any occasion and send freshness and greenery their way. A fantastic gift for the Guardian of the Galaxy GROOT fan.",
-        "category_id":16
+        "category_id":16,
+        "average_rating":4.2
     },
     {
         "p_id":72,
@@ -602,7 +644,8 @@
         "cost":499,
         "product_image":"https://i.ibb.co/kmwrpRL/golden-money-biker-9946677pl-A.jpg",
         "product_detail":"The vase with a bicycle stand is leveling up the beauty of this luck and wealth barer plant.",
-        "category_id":16
+        "category_id":16,
+        "average_rating":4.5
     },
     {
         "p_id":73,
@@ -610,7 +653,8 @@
         "cost":699,
         "product_image":"https://i.ibb.co/gmWHtTy/fortunate-money-plant-9860107pl-A-0.jpg",
         "product_detail":"The money plant is an unique houseplant that has a reputation for attracting money. The plant will tolerate lower lighting levels and grow happily with little or no attention.",
-        "category_id":16
+        "category_id":16,
+        "average_rating":5.0
     },
     {
         "p_id":74,
@@ -618,7 +662,8 @@
         "cost":699,
         "product_image":"https://i.ibb.co/6vrBRzp/cupids-bow-9973350pl-A.jpg",
         "product_detail":"The rose is a type of flowering shrub that belong to the family of plants called Rosaceae.",
-        "category_id":17
+        "category_id":17,
+        "average_rating":5.0
     },
     {
         "p_id":75,
@@ -626,7 +671,8 @@
         "cost":999,
         "product_image":"https://i.ibb.co/L9CtzqY/ixora-jasmine-combo-9937050pl-A.jpg",
         "product_detail":"A soothing combo of Jasmine and Ixora outdoor plant potted in beautiful white chatura vases made from imported plastic is a gift of health and soulful aroma.",
-        "category_id":17
+        "category_id":17,
+        "average_rating":2.5
     },
     {
         "p_id":76,
@@ -634,7 +680,8 @@
         "cost":499,
         "product_image":"https://i.ibb.co/KD5p2K5/43193.jpg",
         "product_detail":"Add tranquillity to your space with the glory of our blooming plants. They flower with bright and long-lasting flowers that float elegantly over the leaves.",
-        "category_id":17
+        "category_id":17,
+        "average_rating":2.8
     },
     {
         "p_id":77,
@@ -642,7 +689,8 @@
         "cost":1099,
         "product_image":"https://i.ibb.co/k2LXbxj/30206.jpg",
         "product_detail":"Syngonium is also known as Arrowhead Plants, or Nephthys. Syngonium have leaves that are almost white, green & white, and various shades of pink or burgundy.",
-        "category_id":18
+        "category_id":18,
+        "average_rating":2.9
     },
     {
         "p_id":78,
@@ -650,7 +698,8 @@
         "cost":449,
         "product_image":"https://i.ibb.co/zn9ZwSz/unique-syngonium-dwarf-plant-9964847pl-A.jpg",
         "product_detail":"This adorable Syngonium dwarf plant which is planted in a special dog-shaped ceramic vase is the best way to wish them on their very special day.",
-        "category_id":18
+        "category_id":18,
+        "average_rating":4.9
     },
     {
         "p_id":79,
@@ -658,7 +707,8 @@
         "cost":899,
         "product_image":"https://i.ibb.co/B3gyhQq/resin-home-syngonium-9851447pl-A-0.jpg",
         "product_detail":"Grab the most easy to maintain, top rated air purifying indoor plant, Syngonium that is potted in a very attractive, aesthetically appealing miniature home vase. ",
-        "category_id":18
+        "category_id":18,
+        "average_rating":4.6
     },
     {
         "p_id":80,
@@ -666,7 +716,8 @@
         "cost":995,
         "product_image":"https://i.ibb.co/nsDcGVW/p-delicious-box-of-16pc-assorted-homemade-chocolates-60745-m-1.jpg",
         "product_detail":"This box of handmade chocolate is full of happiness and blissfulness. Arranged attractively in a premium pack. It will surely leave you asking more and more.",
-        "category_id":19
+        "category_id":19,
+        "average_rating":4.7
     },
     {
         "p_id":81,
@@ -674,7 +725,8 @@
         "cost":3500,
         "product_image":"https://i.ibb.co/CKQh5yF/1-CG0374-1800x1800.jpg",
         "product_detail":"A perfect chocolate combo for your loved ones",
-        "category_id":19
+        "category_id":19,
+        "average_rating":5.0
     },
     {
         "p_id":82,
@@ -682,7 +734,8 @@
         "cost":499,
         "product_image":"https://i.ibb.co/5hxcvV5/Lindt-Intense-Orange-1000x.jpg",
         "product_detail":"Intense Dark Chocolate with a hint of Orange, Made with 100% cocoa butter",
-        "category_id":20
+        "category_id":20,
+        "average_rating":4.8
     },
     {
         "p_id":83,
@@ -690,7 +743,8 @@
         "cost":1659,
         "product_image":"https://i.ibb.co/WyTBhMq/76595-1.jpg",
         "product_detail":"Perfect for on-the-go snacking, our Dark Chocolate Almonds are a nut-lovers dream come true.",
-        "category_id":20
+        "category_id":20,
+        "average_rating":4.9
     },
     {
         "p_id":84,
@@ -698,7 +752,8 @@
         "cost":4100,
         "product_image":"https://i.ibb.co/hX3jnKm/12522-1.jpg",
         "product_detail":"When words can't aptly express your appreciation, our 36-piece Gold Gift Box tied with Thank You ribbon can.",
-        "category_id":20
+        "category_id":20,
+        "average_rating":4.8
     },
     {
         "p_id":85,
@@ -706,7 +761,8 @@
         "cost":4100,
         "product_image":"https://i.ibb.co/3sJKX0G/20-28669-30-W-01ex.jpg",
         "product_detail":"Indulge in luxurious chocolate with our individually boxed Signature Truffle Trio.",
-        "category_id":19
+        "category_id":19,
+        "average_rating":4.6
     },
     {
         "p_id":86,
@@ -714,7 +770,8 @@
         "cost":2899,
         "product_image":"https://i.ibb.co/4MdjxQj/1573648745-4.jpg",
         "product_detail":"Why not make room for some delicacies with this special ferrero rocher bunch entwined in the form of an elegant bouquet.",
-        "category_id":21
+        "category_id":21,
+        "average_rating":4.2
     },
     {
         "p_id":87,
@@ -722,7 +779,8 @@
         "cost":1799,
         "product_image":"https://i.ibb.co/kqPBynq/have-a-ferrero-rocher-9904250chc-A.jpg",
         "product_detail":"16 Ferrero Rocher Chocolates packed beautifully in Purple Paper arranged in a Glass Vase Wrapped with Jute & Decorated with White Raffia",
-        "category_id":21
+        "category_id":21,
+        "average_rating":4.9
     },
     {
         "p_id":88,
@@ -730,7 +788,8 @@
         "cost":1449,
         "product_image":"https://i.ibb.co/LvWrLjf/ED49-B3-F5-3-A8-F-4-DBD-93-A8-B87-B4864133-F.jpg",
         "product_detail":"This lovely heart shaped black box of 31 ferrero rocher chocolate will charm the heart of your loved one for sure",
-        "category_id":21
+        "category_id":21,
+        "average_rating":5.0
     },
     {
         "p_id":89,
@@ -738,7 +797,8 @@
         "cost":1549,
         "product_image":"https://i.ibb.co/DrFKxsV/39498.jpg",
         "product_detail":"Plan a wonderful surprise for your dearest one with this lovely gift ensemble.",
-        "category_id":22
+        "category_id":22,
+        "average_rating":4.9
     },
     {
         "p_id":90,
@@ -746,7 +806,8 @@
         "cost":1999,
         "product_image":"https://i.ibb.co/Pz0rTY8/37606.jpg",
         "product_detail":"This is the best delight for your loved ones and will surely make them feel special.",
-        "category_id":22
+        "category_id":22,
+        "average_rating":5.0
     },
     {
         "p_id":91,
@@ -754,7 +815,8 @@
         "cost":1949,
         "product_image":"https://i.ibb.co/RyK2tRg/delicious-dairy-milk-tower-1.jpg",
         "product_detail":"Here is a dazzling 15 inches(approx) arrangement of 57 Cadbury Dairy Milk chocolates which would be an endearing gift for ypur near & dear",
-        "category_id":22
+        "category_id":22,
+        "average_rating":4.8
     },
     {
         "p_id":92,
@@ -762,7 +824,8 @@
         "cost":3049,
         "product_image":"https://i.ibb.co/SVFmNgG/delightful-aromatic-hamper-ven-38-kcmelhl001-A-0.jpg",
         "product_detail":"A perfect combo of sweet & aromatic gift to your near and dear ones. It contains Parfum Set (Rebel, Neo, Lafi Man, Lavish) paired with Handmade Chocolate Gift Pack.",
-        "category_id":23
+        "category_id":23,
+        "average_rating":4.9
     },
     {
         "p_id":93,
@@ -770,7 +833,8 @@
         "cost":999,
         "product_image":"https://i.ibb.co/w7K5LjT/choco-delights-with-lantern-9835217gf-A-0.jpg",
         "product_detail":"A delightful combination of hazelnut and milk chocolate, these cookies are a delicious treat with Lantern which is a symbol of optimism and light in the darkness.",
-        "category_id":23
+        "category_id":23,
+        "average_rating":5.0
     },
     {
         "p_id":94,
@@ -778,15 +842,17 @@
         "cost":2495,
         "product_image":"https://i.ibb.co/cc4mGFL/tempting-health-platter-ven-38-kcbhlbl008-C-0.jpg",
         "product_detail":"A nutri-loaded hamper consist of Cheese Popcorn Can, Roasted MultiSeeds Jar, Coconut Cookies Bites, Raagi Cookies Bites, Handmade Chocolate Chatai Bomb, Handmade Chocolate Truffle.",
-        "category_id":23
+        "category_id":23,
+        "average_rating":5.0
     },
     {
         "p_id":95,
         "product_name":"Sugar Free Delicious Dark Chocolate",
         "cost":649,
         "product_image":"https://i.ibb.co/JRmHvG7/sugar-free-delicious-dark-chocolate-1.webp",
-        "product_detail":"",
-        "category_id":24
+        "product_detail":"Here is a Sugar-Free Dark Chocolate Bar, ready to calm your craving for something chocolaty.",
+        "category_id":24,
+        "average_rating":5.0
     },
     {
         "p_id":96,
@@ -794,7 +860,8 @@
         "cost":399,
         "product_image":"",
         "product_detail":"With no processed sugar added whatsoever, these choco bars are super healthy to consume and also delicious to taste.",
-        "category_id":24
+        "category_id":24,
+        "average_rating":5.0
     },
     {
         "p_id":97,
@@ -802,7 +869,8 @@
         "cost":1550,
         "product_image":"https://i.ibb.co/d6MBT58/webp-net-resizeimage-13-7.jpg",
         "product_detail":"If you want to make someone happy, then you must gift this wonderful collection of 45 Kitkat Chocolates. It will surely make people smile.",
-        "category_id":24
+        "category_id":24,
+        "average_rating":5.0
     },
     {
         "p_id":98,
@@ -810,6 +878,7 @@
         "cost":899,
         "product_image":"https://i.ibb.co/59nhpJh/zevic-sugar-free-assorted-chocolates-gift-pack-1.webp",
         "product_detail":"",
-        "category_id":24
+        "category_id":24,
+        "average_rating":5.0
     }
 ]

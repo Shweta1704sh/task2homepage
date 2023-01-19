@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
-const ListingDisplay =(props) => {
+const DetailDisplay =(props) => {
 
     const renderData = ({listData}) => { 
         if(listData){
@@ -9,25 +9,17 @@ const ListingDisplay =(props) => {
                 return listData.map((items)=>{
                     return(
                         <div key={items._id}>
-                            <div id="containerMain">
-                                <div id="tileContainer1">
-                                    <div id="ProductImage">
+                            <div id="containerDetail">
+                                <div id="Container">
+                                    <div id="DetailImage">
                                         <img src={items.product_image} alt="img"/> 
                                     </div>
-                                    <div id="ProductContent">
+                                    <div id="DetailContent">
                                         <h4 style={{textAlign:'center'}}>{items.product_name}</h4>
+                                        <p style={{textAlign:'center'}}>{items.product_detail}</p>
                                         <p>Rs.{items.cost}</p>
-                                        <p style={{marginLeft:75}}>Average Rating:
-                                            <span style={{fontSize:24,color:'green'}}>&#9733;</span>
-                                            {items.average_rating}
-                                        </p>
+                                        
                                     </div>
-                                    <Link to={`/`}>
-                                        <button className='btn btn-warning btn-lg' style={{'marginLeft':30}}>BACK</button>
-                                    </Link>
-                                    <Link to={`/Detail/${items.p_id}`}>
-                                        <button className='btn btn-primary btn-lg' style={{'marginLeft':50}}>EXPLORE</button>
-                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -60,4 +52,4 @@ const ListingDisplay =(props) => {
     )
 }
 
-export default ListingDisplay;
+export default DetailDisplay;
