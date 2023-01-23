@@ -86,6 +86,8 @@ app.get('/ProductDetails',(req,res)=>{
   })
 })
 
+
+//product detail wrt product id
 app.get('/Details',(req,res)=>{
   let query={}
   let p_id = Number(req.query.p_id)

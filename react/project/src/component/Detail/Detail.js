@@ -6,7 +6,7 @@ import Header from '../Header';
 
 const listurl = "http://localhost:9800/Details?p_id="
 
-class Listing extends Component {
+class Details extends Component {
     constructor(props){
         super(props)
 
@@ -17,16 +17,18 @@ class Listing extends Component {
 
         }
     }
-
-    setDataPerFilter = (data) => {
-        this.setState({ProductList:data})
+    addToCart=(data) => {
+        this.setState({userItem:data})
     }
+
 
     render(){
         return(
             <>
                 <Header/>
-                <DetailDisplay listData={this.state.ProductList}/>          
+                <DetailDisplay listData={this.state.ProductList}
+                finalOrder={(data) => {this.addToCart(data)}}/>
+    
             </>
         )
     }
@@ -41,4 +43,4 @@ class Listing extends Component {
     }
 }
 
-export default Listing;
+export default Details;

@@ -4,6 +4,9 @@ import Footer from './Footer';
 import Home from './Home/Home';
 import Listing from './Listing/Listing';
 import Detail from './Detail/Detail';
+import PlaceOrder from './orders/placeOrder';
+import ViewOrder from './orders/viewOrder';
+
 
 const Routing = () => {
     return(
@@ -11,6 +14,9 @@ const Routing = () => {
             <Route exact path="/" component={Home}/>
             <Route path="/Listing/:productId" component={Listing}/>
             <Route path="/Detail/:productId" component={Detail}/>
+            <Route path="/placeOrder" component={PlaceOrder}/>
+            <Route path="/viewBooking" component={ViewOrder}/>
+
             <Footer/>
         </BrowserRouter>
     )

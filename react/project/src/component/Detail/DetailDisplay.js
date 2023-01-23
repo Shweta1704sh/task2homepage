@@ -1,24 +1,64 @@
-import React from 'react';
-import {Link} from 'react-router-dom'
 
-const DetailDisplay =(props) => {
+import React,{Component} from 'react';
 
-    const renderData = ({listData}) => { 
+class DetailDisplay extends Component {
+
+    orderId = [];
+
+    placeOrder = (id) => {
+        this.orderId.push(id);
+        this.props.finalOrder(this.orderId)
+    }
+
+    removeOrder=(id)=>{
+        if(this.orderId.indexOf(id) > -1){
+            this.orderId.splice(this.orderId.indexOf(id), 1)
+        }
+        this.props.finalOrder(this.orderId)
+    }
+
+
+    renderCart = (orders) => {
+        if(orders){
+            return orders.map((items,index) => {
+                return(
+                    <b key={index}>{items}&nbsp;</b>
+                )
+            })
+        }
+    }
+
+
+    renderData = ({listData}) => { 
         if(listData){
             if(listData.length > 0){
                 return listData.map((items)=>{
                     return(
-                        <div key={items._id}>
+                        <div key={items.p_id}>
                             <div id="containerDetail">
                                 <div id="Container">
+                                    <p>{items.p_id}</p>
                                     <div id="DetailImage">
                                         <img src={items.product_image} alt="img"/> 
                                     </div>
                                     <div id="DetailContent">
-                                        <h4 style={{textAlign:'center'}}>{items.product_name}</h4>
-                                        <p style={{textAlign:'center'}}>{items.product_detail}</p>
-                                        <p>Rs.{items.cost}</p>
-                                        
+                                        <h4>{items.product_name}</h4>
+                                        <p>{items.product_detail}</p>
+                                        <p>Average Rating:
+                                            <span style={{fontSize:24,color:'green'}}>&#9733;</span>
+                                            {items.average_rating}
+                                        </p>
+                                        <p><b>Rs.{items.cost}</b></p>
+                                        <div className="button">
+                                            <button className="btn btn-success"
+                                                onClick={()=>{this.placeOrder(items.p_id)}}>
+                                                <span className="glyphicon glyphicon-plus">ADD TO CART</span>
+                                            </button> &nbsp;
+                                            <button className="btn btn-danger"
+                                                onClick={()=>{this.removeOrder(items.p_id)}}>
+                                                <span className="glyphicon glyphicon-minus">REMOVE FROM CART</span>
+                                            </button> 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -42,14 +82,21 @@ const DetailDisplay =(props) => {
             )
         }
     }
+    render(){
+        return(
+            <div>
+                <div>
+                    {this.renderData(this.props)}
+                </div>
+                <div className="col-md-12 bg-success">
+                    <h1>Item Added</h1>
+                    Item Numbers {this.renderCart(this.orderId)} Added
+                </div>
+                
+            </div>
+        )
+    }
 
-    return(
-        <>
-        <div id="contentMain">
-            {renderData(props)}
-        </div>
-        </>
-    )
 }
 
 export default DetailDisplay;
