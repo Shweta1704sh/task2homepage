@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import './placeOrder.css';
 import Header from '../Header';
 
-const url = "http://localhost:9800/pro";
+const url = "https://flowerstationapi.onrender.com//pro";
 
 class PlaceOrder extends Component {
     constructor(props){
