@@ -1,7 +1,16 @@
-
 import React,{Component} from 'react';
+import {Link} from 'react-router-dom'
+
+
 
 class DetailDisplay extends Component {
+    constructor(props){
+        super(props)
+
+        this.state={
+            userItem:''
+        }
+    }
 
     orderId = [];
 
@@ -17,6 +26,16 @@ class DetailDisplay extends Component {
         this.props.finalOrder(this.orderId)
     }
 
+    addToCart=(data) => {
+        this.setState({userItem:data})
+    }
+    
+
+    process=()=>{
+        sessionStorage.setItem('pro',this.state.userItem);
+        this.props.history.push(`/placeOrder/${this.state.items.restaurant_name}`)
+
+    }
 
     renderCart = (orders) => {
         if(orders){
@@ -50,15 +69,17 @@ class DetailDisplay extends Component {
                                         </p>
                                         <p><b>Rs.{items.cost}</b></p>
                                         <div className="button">
-                                            <button className="btn btn-success"
-                                                onClick={()=>{this.placeOrder(items.p_id)}}>
+                                            <button className="btn btn-success" onClick={()=>{this.placeOrder(items.p_id)}}>
                                                 <span className="glyphicon glyphicon-plus">ADD TO CART</span>
                                             </button> &nbsp;
-                                            <button className="btn btn-danger"
-                                                onClick={()=>{this.removeOrder(items.p_id)}}>
+                                            <button className="btn btn-danger" onClick={()=>{this.removeOrder(items.p_id)}}>
                                                 <span className="glyphicon glyphicon-minus">REMOVE FROM CART</span>
                                             </button> 
                                         </div>
+                                        <Link to={`/placeOrder/${items.product_name}`}>
+                                        <button className='btn btn-lg btn-info' style={{marginTop:20}}
+                                        onClick={this.process}>Process</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

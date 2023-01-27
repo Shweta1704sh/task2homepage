@@ -156,7 +156,7 @@ app.get('/OrderDetails',(req,res)=>{
   else{
     query={}
   }
-  db.collection('order').find(query).toArray((err, result)=>{
+  db.collection('orders').find(query).toArray((err, result)=>{
     if (err) throw err;
     res.send(result)
   })
@@ -210,7 +210,21 @@ app.delete('/deleteOrder/:id',(req,res) => {
     if(err) throw err;
     res.send('Order Deleted')
   })
+
 })
+
+app.post('/pro',(req,res) => {
+  if(Array.isArray(req.body.id)){
+      db.collection('product').find({p_id:{$in:req.body.id}}).toArray((err,result) => {
+          if(err) throw err;
+          res.send(result)
+      })
+  }else{
+      res.send('Invalid Input')
+  }
+  
+})
+
 
 //connection with db
 MongoClient.connect(MongoUrl, (err, client)=>{

@@ -11,12 +11,24 @@ class Listing extends Component {
         super(props)
 
         this.state={
-            ProductList:''
+            ProductList:'',
+            productId:sessionStorage.getItem('productId'),
+            userItem:''
+
         }
     }
 
     setDataPerFilter = (data) => {
         this.setState({ProductList:data})
+    }
+
+    addToCart=(data) => {
+        this.setState({userItem:data})
+    }
+
+    process=()=>{
+        sessionStorage.setItem('pro',this.state.userItem);
+        this.props.history.push(`/placeOrder/${this.state.category_id}`);
     }
 
     render(){
@@ -26,7 +38,9 @@ class Listing extends Component {
                 <div className='col'>
                     <div className="filter"></div>
                     <div className="row">
-                        <ListingDisplay listData={this.state.ProductList}/>
+                        <ListingDisplay listData={this.state.ProductList}
+                        finalOrder={(data) => {this.addToCart(data)}}/>
+                        <button className='btn btn-info btn-lg col-md-4' onClick={this.process}>Process</button>
                     </div>
                 </div>
             </>
@@ -40,6 +54,7 @@ class Listing extends Component {
         axios.get(`${listurl}${productId}`)
         .then((res) => {this.setState({ProductList:res.data})})
     }
+
 }
 
 export default Listing;

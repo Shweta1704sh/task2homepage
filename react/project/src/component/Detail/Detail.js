@@ -12,6 +12,7 @@ class Details extends Component {
 
         this.state={
             ProductList:'',
+            
             productId:sessionStorage.getItem('productId'),
             userItem:''
 
@@ -28,7 +29,6 @@ class Details extends Component {
                 <Header/>
                 <DetailDisplay listData={this.state.ProductList}
                 finalOrder={(data) => {this.addToCart(data)}}/>
-    
             </>
         )
     }
