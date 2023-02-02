@@ -36,12 +36,14 @@ class Listing extends Component {
             <>
                 <Header/>
                 <div className='col'>
-                    <div className="filter"></div>
+                    <div className="filter">
+                        <h3 style={{marginTop:30}}><center>Cost Filter</center></h3><hr/>
+                    </div>
                     <div className="row">
                         <ListingDisplay listData={this.state.ProductList}
                         finalOrder={(data) => {this.addToCart(data)}}/>
-                        <button className='btn btn-info btn-lg col-md-4' onClick={this.process}>Process</button>
                     </div>
+                    <button className='btn btn-info btn-lg' style={{marginLeft:800,marginTop:10}}onClick={this.process}>Process</button>
                 </div>
             </>
         )

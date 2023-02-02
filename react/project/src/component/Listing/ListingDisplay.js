@@ -59,8 +59,7 @@ class ListingDisplay extends Component {
                                     
                                     <div className="button">
                                         <button className="btn btn-success" onClick={()=>{this.placeOrder(items.p_id)}}>ADD TO CART</button>
-                                        <button className="btn btn-danger" onClick={()=>{this.removeOrder(items.p_id)}}>REMOVE FROM CART</button>                                       
-                                        
+                                        <button className="btn btn-danger" onClick={()=>{this.removeOrder(items.p_id)}}>REMOVE FROM CART</button>                                          
                                     </div>
 
                                 </div>
@@ -80,8 +79,9 @@ class ListingDisplay extends Component {
         }else{
             return(
                 <div>
-                    
+                    <img src="https://i.ibb.co/89qJFP7/e0ea055299e92297b2ec0ef1c80696bf-w200.gif" alt="e0ea055299e92297b2ec0ef1c80696bf-w200" border="0"></img>
                     <h2>Loading..</h2>
+
               </div>
             )
         }
@@ -93,10 +93,9 @@ class ListingDisplay extends Component {
                 <div>
                     {this.renderData(this.props)}
                 </div>
-                <div className="col-md-12">
-                    <h1>Item Added</h1>
-                    Item Numbers {this.renderCart(this.orderId)} Added
-                    
+                <div className="items">
+                <h1>Item Added</h1>
+                    Item Numbers {this.renderCart(this.orderId)} Added                    
                 </div>
             </div>
         )

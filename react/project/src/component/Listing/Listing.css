@@ -1,7 +1,7 @@
 .col
 {
 width:100%;
-height:1500px;
+height:1550px;
 /*border:2px solid red;*/
 }
 .filter
@@ -11,7 +11,7 @@ height:1500px;
  border: 2px solid red;
  height:500px;
  float:left;
- margin-top:10%;
+ margin-top:3%;
 }
 .row
 {
@@ -71,11 +71,21 @@ height:1500px;
 .button
 {
     /*border: 2px solid red;*/
-    width:100%;
+    width:60%;
     margin-left:40%;
-    margin-top:5%;
+    margin-top:3%;
 }
 .button>button{
     margin-left:1%;
     margin-right:1%;
+}
+.items
+{
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, rgb(103, 65, 241), #ddc2cc);
+    border-image-slice: 1;
+    width:100%;
+    margin-top:1450px;
+    text-align:center;
+
 }

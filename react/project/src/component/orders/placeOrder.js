@@ -2,7 +2,8 @@ import React,{Component} from 'react';
 import './placeOrder.css';
 import Header from '../Header';
 
-const url = "https://flowerstationapi.onrender.com//pro";
+const url = "http://localhost:9800/pro";
+const oUrl="http://localhost:9800/placeOrder"
 
 class PlaceOrder extends Component {
     constructor(props){
@@ -28,51 +29,74 @@ class PlaceOrder extends Component {
         this.setState({[event.target.name]:event.target.value})
     }
 
+    renderItem=(data) => {
+        if(data){
+            return data.map((item) => {
+                return(
+                    <div className="orderItems" key={item.p_id}>
+                        <img src={item.product_image} alt={item.menu_name}/>
+                        <h3>{item.product_name}</h3>
+                        <h5>Rs. {item.cost}</h5>
+                    </div>
+                )
+            })
+        }
+    }
+
+    checkout=() => {
+        let obj = this.state;
+        obj.ProductList = sessionStorage.getItem('pro');
+        fetch(oUrl,{
+            method:'POST',
+            headers:{
+                'accept':'application/json',
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify(obj)
+        })
+        //console.log('order added')
+        .then(this.props.history.push('/viewBooking'))
+
+    }
+
+
     render(){
         return(
             <>
-            <Header/>
-            <div className='container-fluid'>
-                <h4 className='container' >Details Of Your Order</h4>
-                <div className='col-md-12'>
-                    <form>
-                        <input type="hidden" name="cost" value={this.state.cost} style={{border:'2px solid red'}}/>
-                        <input type="hidden" name="id" value={this.state.p_id}/>
-                        <input type="hidden" name="hotel_name" value={this.state.product_name}/>
-                        <div className="col-md-8">
-                            <div className="form-group col-md-6">
-                                <label for="fname" className="control-label">FirstName</label>
-                                <input className="form-control" id="fname" name="name" value={this.state.name} onChange={this.handleChange}/>
-                            </div>
-                            <div className="form-group col-md-6">
-                                <label for="email" className="control-label">Email</label>
-                                <input className="form-control" id="email" name="email" value={this.state.email}
-                                onChange={this.handleChange}/>
-                            </div>
-                            <div className="form-group col-md-6">
-                                <label for="phone" className="control-label">Phone</label>
-                                <input className="form-control" id="phone" name="phone" value={this.state.phone}
-                                onChange={this.handleChange}/>
-                            </div>
-                            <div className="form-group col-md-6">
-                                <label for="address" className="control-label">Address</label>
-                                <input className="form-control" id="address" name="address" value={this.state.address}
-                                onChange={this.handleChange}/>
-                            </div>
+            <Header/> 
+            <div className='containerForm'>
+                <div className='heading'>
+                    <p>Details Of Your Order</p>
+                </div>
+                <div className='form'>
+                    {this.renderItem(this.state.ProductList)}
+                    <div className='cost'>
+                        <h2>Total Price is Rs.{this.state.cost}</h2>
+                        <p>Delivery Charges:Rs.100</p>
+                    </div>
+                </div>
+                <div className='FormContent'>
+                    <form className='row'>
+                        <input type="hidden" name="cost" value={this.state.cost}/>
+                        <input type="hidden" name="id" value={this.state.id}/>
+                        <div className='col-md-6'>
+                            <label for="name" className="control-label">Name</label>
+                            <input className="form-control" id="name" name="name" value={this.state.name} onChange={this.handleChange}/>                           
                         </div>
-                        <div className="row">
-                            <div className="col-md-6">
-                                <h2>Total Price is Rs.{this.state.cost}</h2>
-                            </div>
-                            <div className="col-md-6"></div>
+                        <div className='col-md-6'>
+                            <label for="phone" className="control-label">Contact Number</label>
+                            <input className="form-control" id="phone" name="phone" value={this.state.phone} onChange={this.handleChange}/>
                         </div>
-                        <div className="row">
-                            <div className="col-md-6">
-                                <button className="btn btn-success" onClick={this.checkout}type="submit">PlaceOrder</button>
-                            </div>
-                            <div className="col-md-6"></div>
+                        <div className='col-md-12'>
+                            <label for="email" className="control-label">Email</label>
+                            <input className="form-control" id="email" name="email" value={this.state.email} onChange={this.handleChange}/>
                         </div>
-                    </form>
+                        <div className='col-md-12'>
+                            <label for="address" className="control-label">Delivery Address</label>
+                            <input className="form-control" id="address" name="address" value={this.state.address} onChange={this.handleChange}/>      
+                        </div>
+                        <button className='btn btn-success' style={{marginTop:15}} onClick={this.checkout} type="submit">PLACE ORDER</button>
+                   </form>
                 </div>
             </div>
             </>
@@ -87,24 +111,25 @@ class PlaceOrder extends Component {
             orderId.push(parseInt(items));
             return 'ok'
         })
-
-        console.log(">>ProductList",orderId)
-
+        let orderID ={id:orderId}
         fetch(url,{
             method: 'POST',
             headers:{
                 'accept':'application/json',
                 'Content-Type':'application/json'
             },
-            body:JSON.stringify(orderId)
+            body:JSON.stringify(orderID)
         })
         .then((res) => res.json())
         .then((data) => {
-            console.log(data)
+            let totalPrice = 0;
+            data.map((item) => {
+                totalPrice = totalPrice+100+ parseFloat(item.cost);
+                return 'ok'
+            })
+            this.setState({ProductList:data,cost:totalPrice})
         })
 
     }
-
-    }
-
+}
 export default PlaceOrder

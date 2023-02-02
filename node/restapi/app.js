@@ -72,10 +72,10 @@ app.get('/category',(req,res)=>{
 //product details wrt to product category
 app.get('/ProductDetails',(req,res)=>{
   let query={}
-  let CategoryId = Number(req.query.CategoryId)
-  if(CategoryId)
+  let category_id = Number(req.query.category_id)
+  if(category_id)
   {
-    query= {CategoryId:CategoryId}
+    query= {category_id:category_id}
   }
   else{
     query={}
@@ -104,63 +104,72 @@ app.get('/Details',(req,res)=>{
   })
 })
 
-
-//filter cost
-app.get('/filter/:productId',(req,res) => {
+// filter cost
+app.get('/filter/:category_id',(req,res) => {
   let query = {};
-  let sort = {cost:1}  
-  db.collection("product").find(query).sort(sort).toArray((err, result) => {
-    if (err) throw err;
-    res.send(result);
-  });
-});
-
-//product wrt cost and productID
-app.get('/filters/:CategoryId',(req,res) => {
-  let productId = Number(req.params.productId);
+  let sort = {cost:1}
   let lcost = Number(req.query.lcost);
   let hcost = Number(req.query.hcost);
-  let CategoryId = Number(req.query.CategoryId);
-  let query = {};
-  if (lcost && hcost) {
-    query = {
-      p_id: productId,
-      $and: [{cost:{$gt:lcost,$lt:hcost}}],
-    };
+  let category_id=Number(req.query.category_id)
+  if(req.query.sort){
+    sort={cost:req.query.sort}
   }
-  else if (CategoryId) {
-    query = {
-      p_id: productId,
-      Category_id: CategoryId,
-    };
-  } 
-  else {
-    query = {
-      p_id: productId,
-    };
+   else if(hcost && lcost){
+    query={
+      category_id:category_id,
+        $and:[{cost:{$gt:lcost,$lt:hcost}}]
+    }
+  }else{
+    query={
+      category_id:category_id
+    }
   }
-  db.collection("product").find(query).toArray((err, result) => {
+
+  db.collection('product').find(query).sort(sort).toArray((err, result) => {
     if (err) throw err;
     res.send(result);
   });
 });
 
+// // //product wrt cost and productID
+// app.get('/filters/:category_id',(req,res) => {
+//   let lcost = Number(req.query.lcost);
+//   let hcost = Number(req.query.hcost);
+//   let category_id = Number(req.query.category_id);
+//   let query = {};
+//   if (lcost && hcost) {
+//     query = {
+//       category_id:category_id,
+//       $and: [{cost:{$gt:lcost,$lt:hcost}}],
+//     };
+//   } 
+//   else {
+//     query = {
+//       category_id:category_id,  
+//     };
+//   }
+//   db.collection('product').find(query).toArray((err, result) => {
+//     if (err) throw err;
+//     res.send(result);
+//   });
+// });
+
 //order Details wrt UserId
-app.get('/OrderDetails',(req,res)=>{
-  let UserId = Number(req.query.UserId)
-  let query={}
-  if(UserId)
-  {
-    query= {"user.user_id":UserId}
-  }
-  else{
-    query={}
-  }
-  db.collection('orders').find(query).toArray((err, result)=>{
-    if (err) throw err;
-    res.send(result)
+  app.get('/OrderDetails',(req,res)=>{
+    let email = req.query.email;
+    let query = {}
+    if(email){
+      query={email:email}
+    }
+    else{
+      query={}
+    }
+    db.collection('orders').find(query).toArray((err, result)=>{
+      if (err) throw err;
+      console.log(err)
+      res.send(result)
+    })
   })
-})
 
 //payment Details
 app.get('/PaymentDetails',(req,res)=>{
@@ -180,7 +189,7 @@ app.get('/DeliveryDetails',(req,res)=>{
 
 //placeorder
 app.post('/placeOrder',(req,res) => {
-  db.collection('order').insert(req.body,(err,result) => {
+  db.collection('orders').insert(req.body,(err,result) => {
     if(err) throw err;
     res.send('Order Placed')
   })
@@ -213,18 +222,18 @@ app.delete('/deleteOrder/:id',(req,res) => {
 
 })
 
+//order 
 app.post('/pro',(req,res) => {
   if(Array.isArray(req.body.id)){
-      db.collection('product').find({p_id:{$in:req.body.id}}).toArray((err,result) => {
-          if(err) throw err;
-          res.send(result)
-      })
+    db.collection('product').find({p_id:{$in:req.body.id}}).toArray((err,result) => {
+      if(err) throw err;
+      res.send(result)
+    })
   }else{
-      res.send('Invalid Input')
+    res.send('Invalid Input')
   }
   
 })
-
 
 //connection with db
 MongoClient.connect(MongoUrl, (err, client)=>{

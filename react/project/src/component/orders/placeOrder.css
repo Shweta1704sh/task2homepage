@@ -2,5 +2,54 @@
 {
     color:#C5A35A;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    border:2px solid black;
+    /*border:2px solid black;*/
+    margin-left:10%;
+    width:40%;
+    font-weight:bold;
+    margin-top:2%;
+    font-size:30px;
+}
+.containerForm
+{
+    height:600px;
+    /*border:2px solid red;*/
+
+}
+.form{
+    /*border:2px solid yellow;*/
+    height:500px;
+    margin-left:2.5%;
+    width:45%;
+    float:left;
+}
+.cost
+{
+    text-align: center;
+    /*border:2px solid red;*/
+    margin-top:68%;
+}
+.orderItems{
+    display:right;
+    height:375px;
+    width:290px;
+    float:left;
+    margin-top:4%;
+    margin-left:2%;
+    box-shadow:10px 10px 20px gray;
+    text-align: center;
+}
+.orderItems>img{
+   height:225px;
+   width:90%;
+   margin:5%
+}
+.FormContent
+{
+    /*border:2px solid yellow;*/
+    height:500px;
+    margin-left:-5%;
+    width:45%;
+    float:left;
+    padding-top:2%;
+
 }
