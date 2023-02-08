@@ -11,7 +11,7 @@ router.use(bodyParser.urlencoded({extended:true}));
 router.use(bodyParser.json());
 
 router.get('/user',(req,res) => {
-    user.find({},(err,data) => {
+    User.find({},(err,data) => {
         if(err) throw err;
         res.send(data)
     })

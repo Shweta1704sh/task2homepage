@@ -21,6 +21,7 @@ http://localhost:9800/OrderDetails?UserId=2
 
 >Sort on basis of cost
 http://localhost:9800/filter/3
+http://localhost:9800/filter/14?sort=1
 
 >update order
 http://localhost:9800/updateorder/6

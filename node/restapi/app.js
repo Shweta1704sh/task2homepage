@@ -105,54 +105,45 @@ app.get('/Details',(req,res)=>{
 })
 
 // filter cost
-app.get('/filter/:category_id',(req,res) => {
-  let query = {};
-  let sort = {cost:1}
-  let lcost = Number(req.query.lcost);
-  let hcost = Number(req.query.hcost);
-  let category_id=Number(req.query.category_id)
-  if(req.query.sort){
-    sort={cost:req.query.sort}
-  }
-   else if(hcost && lcost){
-    query={
-      category_id:category_id,
-        $and:[{cost:{$gt:lcost,$lt:hcost}}]
-    }
-  }else{
-    query={
-      category_id:category_id
-    }
-  }
-
-  db.collection('product').find(query).sort(sort).toArray((err, result) => {
-    if (err) throw err;
-    res.send(result);
-  });
-});
-
-// // //product wrt cost and productID
-// app.get('/filters/:category_id',(req,res) => {
+// app.get('/filter/:category_id',(req,res) => {
+//   let query = {};
+//   let sort = {cost:1}
 //   let lcost = Number(req.query.lcost);
 //   let hcost = Number(req.query.hcost);
-//   let category_id = Number(req.query.category_id);
-//   let query = {};
-//   if (lcost && hcost) {
-//     query = {
-//       category_id:category_id,
-//       $and: [{cost:{$gt:lcost,$lt:hcost}}],
-//     };
-//   } 
-//   else {
-//     query = {
-//       category_id:category_id,  
-//     };
+//   let category_id=Number(req.query.category_id);
+//   let p_id=Number(req.query.p_id)
+
+//   if(req.query.sort){
+//     sort={cost:req.query.sort}
 //   }
-//   db.collection('product').find(query).toArray((err, result) => {
+//     else if(hcost && lcost && p_id){
+//         query={
+//             category_id:category_id,
+//             $and:[{cost:{$gt:lcost,$lt:hcost}}]
+//         }
+//     }
+//     else if(hcost && lcost){
+//     query={
+//       category_id:category_id,
+//         $and:[{cost:{$gt:lcost,$lt:hcost}}]
+//     }
+//   }else if(p_id){
+//     query={
+//       category_id:category_id,
+//       p_id:p_id
+//     }
+//   }else{
+//     query={
+//       category_id:category_id
+//     }
+//   }
+
+//   db.collection('product').find(query).sort(sort).toArray((err, result) => {
 //     if (err) throw err;
-//     res.send(result);
-//   });
-// });
+//     res.send(result)
+//   })
+// })
+
 
 //order Details wrt UserId
   app.get('/OrderDetails',(req,res)=>{

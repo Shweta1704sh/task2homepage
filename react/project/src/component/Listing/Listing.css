@@ -1,32 +1,18 @@
-.col
-{
-width:100%;
-height:1550px;
-/*border:2px solid red;*/
-}
-.filter
-{
- width:20%;
- margin-left:10%;
- border: 2px solid red;
- height:500px;
- float:left;
- margin-top:3%;
-}
 .row
 {
-    width:65%;
-    margin-left:30%;
+    width:95%;
+    margin-left:2.5%;
 }
 #containerMain
 {
-    width:90%;
+    width:47%;
     height:300px;
     float:left;
-    margin-left:5%;
     margin-top:5%;
+    margin-left:2.5%;
     margin-bottom:15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*border: 2px solid red;*/
 }
 #tileContainer2{
     width:100%;
@@ -85,7 +71,7 @@ height:1550px;
     border-image: linear-gradient(to right, rgb(103, 65, 241), #ddc2cc);
     border-image-slice: 1;
     width:100%;
-    margin-top:1450px;
+    margin-top:800px;
     text-align:center;
 
 }

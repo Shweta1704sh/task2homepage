@@ -27,7 +27,6 @@ app.post("/paynow", [parseUrl, parseJson], (req, res) => {
     customerId: req.body.name,
     customerEmail: req.body.email,
     customerPhone: req.body.phone,
-    customerRest: req.body.rest_name
 }
 if(!paymentDetails.amount || !paymentDetails.customerId || !paymentDetails.customerEmail || !paymentDetails.customerPhone ) {
   res.status(400).send('Payment failed')
@@ -118,7 +117,7 @@ app.post("/callback", (req, res) => {
            console.log(">>>>>".response)
            var _results = JSON.parse(response);
            /* where it will come back after payment*/
-           res.redirect(`http://localhost:4100/viewBooking?status=${_results.STATUS}&ORDERID=${_results.ORDERID}&date=${_results.TXNDATE}&bank=${_results.BANKNAME}`)
+           res.redirect(`http://localhost:3000/viewBooking?status=${_results.STATUS}&ORDERID=${_results.ORDERID}&date=${_results.TXNDATE}&bank=${_results.BANKNAME}`)
            });
        });
 

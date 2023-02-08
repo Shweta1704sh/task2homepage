@@ -4,7 +4,8 @@ import './Listing.css';
 import Header from '../Header';
 import ListingDisplay from './ListingDisplay';
 
-const listurl = "https://flowerstationapi.onrender.com/ProductDetails/?CategoryId="
+const listurl = "https://flowerstationapi.onrender.com/ProductDetails/?category_id="
+//const listurl = "https:/localhost:9800/ProductDetails/?CategoryId="
 
 class Listing extends Component {
     constructor(props){
@@ -36,14 +37,11 @@ class Listing extends Component {
             <>
                 <Header/>
                 <div className='col'>
-                    <div className="filter">
-                        <h3 style={{marginTop:30}}><center>Cost Filter</center></h3><hr/>
-                    </div>
                     <div className="row">
                         <ListingDisplay listData={this.state.ProductList}
                         finalOrder={(data) => {this.addToCart(data)}}/>
                     </div>
-                    <button className='btn btn-info btn-lg' style={{marginLeft:800,marginTop:10}}onClick={this.process}>Process</button>
+                    <button className='btn btn-info btn-lg' style={{marginLeft:650,marginTop:10}}onClick={this.process}>Process</button>
                 </div>
             </>
         )

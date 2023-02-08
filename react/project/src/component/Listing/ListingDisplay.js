@@ -79,7 +79,6 @@ class ListingDisplay extends Component {
         }else{
             return(
                 <div>
-                    <img src="https://i.ibb.co/89qJFP7/e0ea055299e92297b2ec0ef1c80696bf-w200.gif" alt="e0ea055299e92297b2ec0ef1c80696bf-w200" border="0"></img>
                     <h2>Loading..</h2>
 
               </div>

@@ -2,23 +2,21 @@ import React,{Component} from 'react';
 import './placeOrder.css';
 import Header from '../Header';
 
-const url = "http://localhost:9800/pro";
-const oUrl="http://localhost:9800/placeOrder"
+const url = "https://flowerstationapi.onrender.com/pro";
+const oUrl="https://flowerstationapi.onrender.com/placeOrder"
 
 class PlaceOrder extends Component {
     constructor(props){
         super(props);
 
-    
-
-        //let sessionData
+        let sessionData = sessionStorage.getItem('userInfo')?sessionStorage.getItem('userInfo').split(','):[]
 
         this.state={
             id:Math.floor(Math.random()*10000),
-            name:'Shweta',
-            email:'shweta@gmail.com',
+            name:sessionData?sessionData[0]:'',
+            email:sessionData?sessionData[1]:'',
             cost:0,
-            phone:'9910961025',
+            phone:sessionData?sessionData[2]:'',
             address:"Hno 62 nagpur",
             ProductList:''
         }
@@ -54,8 +52,8 @@ class PlaceOrder extends Component {
             },
             body:JSON.stringify(obj)
         })
-        //console.log('order added')
-        .then(this.props.history.push('/viewBooking'))
+        console.log('order added')
+        //.then(this.props.history.push('/viewBooking'))
 
     }
 
@@ -76,7 +74,7 @@ class PlaceOrder extends Component {
                     </div>
                 </div>
                 <div className='FormContent'>
-                    <form className='row'>
+                    <form className='row' action="http://localhost:4100/paynow" method="POST">
                         <input type="hidden" name="cost" value={this.state.cost}/>
                         <input type="hidden" name="id" value={this.state.id}/>
                         <div className='col-md-6'>
@@ -120,16 +118,16 @@ class PlaceOrder extends Component {
             },
             body:JSON.stringify(orderID)
         })
+        
         .then((res) => res.json())
         .then((data) => {
             let totalPrice = 0;
             data.map((item) => {
-                totalPrice = totalPrice+100+ parseFloat(item.cost);
+                totalPrice = totalPrice + parseFloat(item.cost);
                 return 'ok'
             })
             this.setState({ProductList:data,cost:totalPrice})
         })
-
     }
 }
 export default PlaceOrder
