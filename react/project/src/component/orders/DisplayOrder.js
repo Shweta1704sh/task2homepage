@@ -23,6 +23,7 @@ const Display = (props) => {
 
 
     return(
+
         <div className='container'>
             <center><h3>Order</h3></center>
             <table className="table">

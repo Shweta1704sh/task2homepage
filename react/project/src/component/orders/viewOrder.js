@@ -3,7 +3,9 @@ import axios from 'axios';
 import Display from './DisplayOrder';
 import Header from '../Header';
 
-const orderurl = "https://localhost:9800/OrderDetails";
+const orderurl = "https://flowerstationapi.onrender.com/OrderDetails";
+const ourl = "http://localhost:9800/updateorder";
+
 
 class ViewOrder extends Component{
 
@@ -34,8 +36,8 @@ class ViewOrder extends Component{
                     "bank_name": query[3].split('=')[1]
                 }
                 let id = query[1].split('=')[1].split('_')[1];
-                fetch(`${orderurl}/${id}`,{
-                    method:'PATCH',
+                fetch(`${ourl}/${id}`,{
+                    method:'PUT',
                     headers:{
                         'Accept':'application/json',
                         'Content-Type':'application/json'
@@ -43,6 +45,7 @@ class ViewOrder extends Component{
                     body: JSON.stringify(data)
                 })
                 console.log(data)
+                console.log(id)
             }
         }
         let sessionData = sessionStorage.getItem('userInfo')?sessionStorage.getItem('userInfo').split(','):[]

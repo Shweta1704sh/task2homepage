@@ -189,11 +189,12 @@ app.post('/placeOrder',(req,res) => {
 //update order
 app.put('/updateorder/:id',(req,res)=>{
   let oid = Number(req.params.id);
-  db.collection('order').updateOne(
-    {o_id:oid},
+  db.collection('orders').updateOne(
+    {id:oid},
     {
       $set:{
         "status":req.body.status,
+        "date":req.body.date,
         "bank_name":req.body.bank_name,
       }
     },(err,result) => {
@@ -211,6 +212,18 @@ app.delete('/deleteOrder/:id',(req,res) => {
     res.send('Order Deleted')
   })
 
+})
+
+app.post('/productItem',(req,res) => {
+  if(Array.isArray(req.body.id)){
+      db.collection('product').find({p_id:{$in:req.body.id}}).toArray((err,result) => {
+          if(err) throw err;
+          res.send(result)
+      })
+  }else{
+      res.send('Invalid Input')
+  }
+  
 })
 
 //order 

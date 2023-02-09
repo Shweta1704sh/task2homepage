@@ -2,8 +2,11 @@ import React,{Component} from 'react';
 import './placeOrder.css';
 import Header from '../Header';
 
-const url = "https://flowerstationapi.onrender.com/pro";
-const oUrl="https://flowerstationapi.onrender.com/placeOrder"
+//const url = "https://flowerstationapi.onrender.com/pro";
+//const oUrl="https://flowerstationapi.onrender.com/placeOrder"
+
+const url = "http://localhost:9800/pro";
+const oUrl="http://localhost:9800/placeOrder"
 
 class PlaceOrder extends Component {
     constructor(props){
@@ -53,7 +56,7 @@ class PlaceOrder extends Component {
             body:JSON.stringify(obj)
         })
         console.log('order added')
-        //.then(this.props.history.push('/viewBooking'))
+       // .then(this.props.history.push('/viewBooking'))
 
     }
 
@@ -74,16 +77,16 @@ class PlaceOrder extends Component {
                     </div>
                 </div>
                 <div className='FormContent'>
-                    <form className='row' action="http://localhost:4100/paynow" method="POST">
+                    <form action="http://localhost:4100/paynow" method="POST">
                         <input type="hidden" name="cost" value={this.state.cost}/>
                         <input type="hidden" name="id" value={this.state.id}/>
-                        <div className='col-md-6'>
-                            <label for="name" className="control-label">Name</label>
-                            <input className="form-control" id="name" name="name" value={this.state.name} onChange={this.handleChange}/>                           
+                        <div class="form-group col-md-6">
+                            <label for="name" className="control-label">Full Name</label>
+                            <input type="text" name="name" className="form-control" value={this.state.name} onChange={this.handleChange}  />
                         </div>
-                        <div className='col-md-6'>
-                            <label for="phone" className="control-label">Contact Number</label>
-                            <input className="form-control" id="phone" name="phone" value={this.state.phone} onChange={this.handleChange}/>
+                        <div class="form-group col-md-6">
+                            <label for="phone">Phone</label>
+                            <input type="text" name="phone" class="form-control" value={this.state.phone} onChange={this.handleChange}  />
                         </div>
                         <div className='col-md-12'>
                             <label for="email" className="control-label">Email</label>
@@ -128,6 +131,7 @@ class PlaceOrder extends Component {
             })
             this.setState({ProductList:data,cost:totalPrice})
         })
+
     }
 }
 export default PlaceOrder
