@@ -26,8 +26,8 @@ class Header extends Component {
             sessionStorage.setItem('userInfo',outArray)
             return(
                 <div id="icon">
-                    <Link to="/login" className="btn btn-success">
-                        <span></span>Hi {data.name}
+                    <Link to="/login">
+                        <i class="fa fa-user icon">&nbsp;Hi {data.name}</i>
                     </Link> &nbsp;
                     <button onClick={this.handleLogout} className="btn btn-danger">
                         <span></span>Logout

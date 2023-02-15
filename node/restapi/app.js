@@ -214,17 +214,17 @@ app.delete('/deleteOrder/:id',(req,res) => {
 
 })
 
-app.post('/productItem',(req,res) => {
-  if(Array.isArray(req.body.id)){
-      db.collection('product').find({p_id:{$in:req.body.id}}).toArray((err,result) => {
-          if(err) throw err;
-          res.send(result)
-      })
-  }else{
-      res.send('Invalid Input')
-  }
+// app.post('/productItem',(req,res) => {
+//   if(Array.isArray(req.body.id)){
+//       db.collection('product').find({p_id:{$in:req.body.id}}).toArray((err,result) => {
+//           if(err) throw err;
+//           res.send(result)
+//       })
+//   }else{
+//       res.send('Invalid Input')
+//   }
   
-})
+// })
 
 //order 
 app.post('/pro',(req,res) => {

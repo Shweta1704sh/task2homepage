@@ -2,8 +2,8 @@ import React,{Component} from 'react';
 import './placeOrder.css';
 import Header from '../Header';
 
-//const url = "https://flowerstationapi.onrender.com/pro";
-//const oUrl="https://flowerstationapi.onrender.com/placeOrder"
+// const url = "https://flowerstation-restapi-production.up.railway.app/pro";
+// const oUrl="https://flowerstation-restapi-production.up.railway.app/placeOrder"
 
 const url = "http://localhost:9800/pro";
 const oUrl="http://localhost:9800/placeOrder"
@@ -88,15 +88,15 @@ class PlaceOrder extends Component {
                             <label for="phone">Phone</label>
                             <input type="text" name="phone" class="form-control" value={this.state.phone} onChange={this.handleChange}  />
                         </div>
-                        <div className='col-md-12'>
+                        <div className='col-md-6'>
                             <label for="email" className="control-label">Email</label>
                             <input className="form-control" id="email" name="email" value={this.state.email} onChange={this.handleChange}/>
                         </div>
-                        <div className='col-md-12'>
+                        <div className='col-md-6'>
                             <label for="address" className="control-label">Delivery Address</label>
                             <input className="form-control" id="address" name="address" value={this.state.address} onChange={this.handleChange}/>      
                         </div>
-                        <button className='btn btn-success' style={{marginTop:15}} onClick={this.checkout} type="submit">PLACE ORDER</button>
+                        <button className='btn btn-success' style={{marginTop:15,marginLeft:200}} onClick={this.checkout} type="submit">PLACE ORDER</button>
                    </form>
                 </div>
             </div>
