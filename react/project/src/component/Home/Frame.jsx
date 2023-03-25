@@ -17,7 +17,7 @@ export function Frame(props) {
 
   useEffect(()=>{
     GetData()
-  });
+  },[]);
 
   return (
     <div id="QuickSearch">
