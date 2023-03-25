@@ -53,3 +53,43 @@
     padding-top:2%;
 
 }
+@media screen and (max-width:1280px)
+{
+    .orderItems{
+        display:right;
+        height:375px;
+        width:40%;
+        float:left;
+        margin-top:2%;
+        margin-left:5%;
+        box-shadow:10px 10px 20px gray;
+        text-align: center;
+    }
+    .cost
+    {
+        text-align: center;
+        /* border:2px solid red; */
+        margin-top:55%;
+    }
+    .form{
+        /* border:2px solid yellow; */
+        height:400px;
+        margin-left:2.5%;
+        width:90%;
+        float:left;
+    }
+    .FormContent
+    {
+        /* border:2px solid yellow; */
+        margin-top:11%;
+        width:60%;
+        margin-left:20%;
+        height:320px;
+    }
+    .containerForm
+    {
+        height: 900px;
+        /* border:2px solid red; */
+    }
+   
+}

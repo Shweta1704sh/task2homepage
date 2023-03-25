@@ -40,8 +40,11 @@ class Listing extends Component {
                     <div className="row">
                         <ListingDisplay listData={this.state.ProductList}
                         finalOrder={(data) => {this.addToCart(data)}}/>
+                        <center>
+                            <button className='btn btn-info' style={{marginTop:10}}onClick={this.process}>Process</button> 
+                        </center>
                     </div>
-                    <button className='btn btn-info btn-lg' style={{marginLeft:650,marginTop:10}}onClick={this.process}>Process</button>
+                    
                 </div>
             </>
         )

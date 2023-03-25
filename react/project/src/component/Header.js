@@ -32,6 +32,7 @@ class Header extends Component {
                     <button onClick={this.handleLogout} className="btn btn-danger">
                         <span></span>Logout
                     </button>
+                    
                 </div>
             )
         }else{

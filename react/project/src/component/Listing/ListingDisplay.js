@@ -1,5 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
+import './Listing.js';
+
 
 class ListingDisplay extends Component {
     constructor(props){
@@ -56,12 +58,12 @@ class ListingDisplay extends Component {
                                         </p>
                                         <p><b>Rs.{items.cost}</b></p>
                                     </div>
-                                    
+                                    <center>
                                     <div className="button">
                                         <button className="btn btn-success" onClick={()=>{this.placeOrder(items.p_id)}}>ADD TO CART</button>
                                         <button className="btn btn-danger" onClick={()=>{this.removeOrder(items.p_id)}}>REMOVE FROM CART</button>                                          
                                     </div>
-
+                                    </center>
                                 </div>
                             </div>
                             
@@ -96,6 +98,7 @@ class ListingDisplay extends Component {
                 <h1>Item Added</h1>
                     Item Numbers {this.renderCart(this.orderId)} Added                    
                 </div>
+                
             </div>
         )
     }

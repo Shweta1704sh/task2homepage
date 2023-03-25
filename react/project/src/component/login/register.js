@@ -36,9 +36,10 @@ class Register extends Component{
         return(
             <>
             <Header/>
-            <div className="container" style={{marginTop:30}}>
-                <h3 style={{textAlign:'center'}}>Register</h3>
-                <div className="row" style={{marginLeft:380, width:400}}>
+            <center>
+            <div className="container col-md-6">
+                <h3 style={{textAlign:'center', marginTop:20}}>Register</h3>
+                <div className="row">
                     <div class="form-group col-md-6">
                         <label for="firstname">Full Name</label>
                         <input type="text" name="name" class="form-control"
@@ -60,11 +61,12 @@ class Register extends Component{
                         value={this.state.password} onChange={this.handleChange}  />
                     </div>
                 </div>
-                <button className="btn btn-success" onClick={this.handleSubmit} style={{marginLeft:520, marginTop:20}}>
+                <button className="btn btn-success" onClick={this.handleSubmit} style={{marginTop:20}}>
                     Register
                 </button>
 
             </div>
+            </center>
             </>
         )
     }

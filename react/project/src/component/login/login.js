@@ -44,26 +44,28 @@ class Login extends Component{
         return(
             <>
             <Header/>
+            <center>
             <div className="container" style={{marginTop:30}}>
                 <h3 style={{textAlign:'center'}}>Login Yourself</h3>
                 <h2 style={{textAlign:'center', color:'red'}}>{this.state.message}</h2>
 
-                <div className="row" style={{marginLeft:380, width:400}}>
-                    <div class="form-group col-md-12">
+                <div className="container">
+                    <div class="form-group col-md-6">
                         <label for="email">Email</label>
                         <input type="text" name="email" class="form-control"
                         value={this.state.email} onChange={this.handleChange}  />
                     </div>
-                    <div class="form-group col-md-12">
+                    <div class="form-group col-md-6">
                         <label for="password">Password</label>
                        <input type="text" name="password" class="form-control"
-                        value={this.state.password} onChange={this.handleChange}  />
+                        value={this.state.password} onChange={this.handleChange}/>
                     </div>
                 </div>
-                <button className="btn btn-success" onClick={this.handleSubmit} style={{marginLeft:520, marginTop:20}}>
+                <button className="btn btn-success" onClick={this.handleSubmit} style={{marginTop:10}}>
                     Login
                 </button>
             </div>
+            </center>
             </>
         )
     }

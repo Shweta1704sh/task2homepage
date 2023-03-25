@@ -20,7 +20,7 @@ class PlaceOrder extends Component {
             email:sessionData?sessionData[1]:'',
             cost:0,
             phone:sessionData?sessionData[2]:'',
-            address:"Hno 62 nagpur",
+            address:"",
             ProductList:''
         }
         
